@@ -1,0 +1,17 @@
+[14-Nov-2018 14:58:21 America/Denver] PHP Notice:  Undefined offset: 2 in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 150
+[14-Nov-2018 14:58:21 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 94
+[14-Nov-2018 14:58:21 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 106
+[14-Nov-2018 14:58:24 America/Denver] PHP Notice:  Undefined offset: 1 in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 150
+[14-Nov-2018 14:58:24 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 94
+[14-Nov-2018 14:58:24 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 106
+[14-Nov-2018 14:58:28 America/Denver] PHP Notice:  Undefined offset: 2 in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 150
+[14-Nov-2018 14:58:28 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 94
+[14-Nov-2018 14:58:28 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 106
+[19-Dec-2018 15:33:06 America/Denver] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 56
+[02-Mar-2019 19:12:50 America/Denver] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 56
+[02-Mar-2019 19:13:11 America/Denver] PHP Notice:  Undefined offset: 1 in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 150
+[02-Mar-2019 19:13:11 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 94
+[02-Mar-2019 19:13:11 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 106
+[02-Mar-2019 19:13:19 America/Denver] PHP Notice:  Undefined offset: 2 in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 150
+[02-Mar-2019 19:13:19 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 94
+[02-Mar-2019 19:13:19 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home3/yuetingl/public_html/aau/wnm608/m10/demo/user_admin.php on line 106

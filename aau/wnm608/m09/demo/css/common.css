@@ -1,0 +1,416 @@
+/* CSS Reset */
+:root {
+	--color-main:gray;
+	--color-sub:white;
+}
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	margin:0;
+	font-family:futura ;
+	font-size:100%;
+}
+
+h1 {
+	font-size:1.5em;
+}
+h2 {
+	font-size:1.25em;
+	color:#F7B362;
+	text-align: center;
+	font-size:1.8em;
+}
+h3{
+	
+	font-family:futura ;
+	color: #EE8A42;
+	margin-left: 10%;
+	font-size:1.25em;
+}
+
+
+a {
+	font-weight:bold;
+	text-decoration:none;
+	color:inherit;
+}
+a:hover {
+	text-decoration: underline;
+}
+p{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	color: #4B729E;
+}
+
+
+
+
+
+/* Classes */
+
+.container {
+	max-width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container-cart {
+	max-width:1000px;
+	margin-right: 10%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+}
+
+.media-image {
+	max-width:100%;
+	vertical-align: middle;
+}
+
+
+.nav-crumbs ul,
+.nav-tabs ul,
+.nav-pills ul,
+.nav-horizontal ul,
+.flex-parent {
+	display:flex;
+}
+.nav-tabs li,
+.nav-stretch li,
+.flex-child {
+	flex: 1 1 auto;
+}
+.flex-none {
+	flex:none;
+}
+.flex-vertical {
+	flex-direction:column;
+}
+.flex-center {
+	align-items:center;
+}
+
+.start_image {
+	position: absolute;
+	left:40%;
+	margin-top:20%;
+}
+
+
+
+.collapsed,
+.nav ul {
+	list-style-type:none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.nav a {
+	display:block;
+	padding:0.2em 0.5em;
+	color:var(--color-main);
+}
+.nav .active>a,
+.nav a:hover {
+	color:var(--color-sub);
+}
+.nav a:hover {
+	text-decoration:none;
+	background-color:var(--color-off);
+}
+.nav .active>a {
+	background-color:var(--color-main);
+}
+
+.nav-horizontal li {
+	text-align:center;
+}
+
+.nav-pills a {
+	border-radius:1em;
+	padding:0.2em 1em;
+}
+
+.nav-tabs a {
+	color:var(--color-off);
+	border-bottom:3px solid var(--color-off);
+}
+.nav-tabs a:hover {
+	background-color:transparent;
+	color:var(--color-main);
+}
+.nav-tabs .active>a {
+	background-color:transparent;
+	color:var(--color-main);
+	border-bottom-color:var(--color-main);
+}
+
+
+.nav-crumbs a{
+	color:inherit;
+	background-color:transparent;
+	display:inline-block;
+	font-weight:normal;
+}
+.nav-crumbs li:before {
+	content:'/';
+	margin-left:0.1em;
+	margin-right:0.1em;
+	float:left;
+}
+.nav-crumbs a:hover{
+	color:var(--color-off);
+	background-color:transparent;
+	text-decoration:underline;
+}
+.nav-crumbs .active>a{
+	color:var(--color-main);
+	background-color:transparent;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+.card {
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5%;
+	margin-bottom:5%;
+    background-color: white;
+    padding: 1em;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.15);
+}
+.card :first-child {
+	margin-top:0;
+}
+.card :last-child {
+	margin-bottom:0;
+}
+
+.clearfix:after,
+.card:after {
+	display:table;
+	clear:both;
+	content:'';
+}
+
+
+
+.view-window {
+	height:80vh;
+	position:relative;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.view-window>img {
+	max-width:calc(100% - 100px);
+	max-height:calc(100% - 100px);
+}
+
+.centered-child {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+
+
+
+.deflist dt {
+	font-weight:bold;
+	float:left;
+	width:10em;
+}
+.deflist dd {
+	margin-left:0;
+	float:left;
+	width:calc(100% - 10em);
+}
+
+
+
+
+
+.table {
+	width:100%;
+	border-collapse:collapse;
+}
+
+.table td,
+.table th {
+	text-align:left;
+	padding:0.2em 0.5em;
+	vertical-align: top;
+}
+
+.table.striped tbody tr:nth-child(odd) {
+	background-color:rgba(0,0,0,0.1);
+}
+.table.target tbody tr:hover {
+	background-color:rgba(0,0,0,0.1);
+}
+.table.target tbody td:hover {
+	background-color:rgba(255,200,200,0.4);
+}
+
+.table.lined.all tbody tr,
+.table.lined.horizontal tbody tr {
+	border-top:1px solid black;
+}
+.table.lined.all th:not(:first-child),
+.table.lined.all td:not(:first-child),
+.table.lined.vertical th:not(:first-child),
+.table.lined.vertical td:not(:first-child) {
+	border-left:1px solid black;
+}
+.table.lined.all,
+.table.lined.outline {
+	border:1px solid black;
+}
+
+
+
+.hidden {
+	display:none;
+}
+
+.toggle {
+	display:inline-block;
+}
+.toggle.fav>input:checked+label {
+	color:red;
+}
+
+.toggle.switch>label {
+    display: inline-block;
+    width: 2em;
+    height: 1em;
+    background-color: #ddd;
+    border-radius: 1em;
+    border: 0.1em solid #ccc;
+    transition:all 0.3s;
+}
+.toggle.switch>label>span {
+    display: inline-block;
+    width: .8em;
+    height: .8em;
+    background-color: white;
+    border-radius: 1em;
+    vertical-align: top;
+    transition:all 0.3s;
+    transform:translateX(0);
+}
+.toggle.switch>
+	input:checked+
+	label>span {
+	transform:translateX(1em);
+}
+
+
+.toggle.day-night>
+	label {
+    background-color:skyblue;
+}
+.toggle.day-night>
+	label>span {
+    background-color:yellow;
+}
+.toggle.day-night>
+	input:checked+
+	label {
+    background-color:black;
+}
+.toggle.day-night>
+	input:checked+
+	label>span {
+    background-color:white;
+}
+
+.big-image {
+  width:300px;
+  position:relative;
+  margin-bottom:0.25em;
+}
+.big-image img{
+	max-width: 100%;
+}
+.thumb-images {
+	position: relative;
+	width: 300px;
+}
+.thumbs{
+	width:300px;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+.thumb-images img{
+	width: 70px;
+	box-sizing: border-box;
+}
+.thumb-images img.active{
+	border: 1px solid black;
+}
+.arrow{
+	position: absolute;
+	bottom:50%;
+	position: absolute;
+	bottom: 50%;
+	transform: translateY(50%);
+	color:white;
+}
+.arrow.right {
+  right:1em;
+}
+.arrow.left {
+  left:1em;
+}
+/*form w3schools.com*/
+button {
+    border: none;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    background-color:#ACCEDE;
+    color:#2A4968;
+    font-family:futura; 
+}
+button:hover{
+	background-color:var(--color-main);
+	color:var(--color-off);;
+}
+
+@media (max-width:500px) {
+  .thumb-images .arrow {
+    display:none;
+  }
+}
+
+.footer {
+   position: fixed;
+   margin-top: 2%;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   background-color:#6691B7;
+   font-family:futura;
+   color: #BAD8E5;
+}
+
+.back {
+	margin-top:1em;
+	text-align:center;
+}

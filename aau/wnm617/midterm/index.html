@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>California Sea Lion</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="javascripts/jquery.googlemap.js"></script>
+        <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKhG5kcOORfdgSxkzZm9mjkNAoWDi7dIo"></script>
+    </head>javascripts
+    
+    <body>
+
+   	  <div data-role="page" id="one"> 
+          <!-- Map Page !-->
+          <div data-role="header"><h1>California Sea Lion</h1></div>
+          
+          <div data-role="content">
+              <h1>Areas in California with most Sea Lion Population</h1>
+            <div id="map_canvas" style="width:100%; height:700px;">
+            </div> 
+          </div>
+
+          <h1> <a href="#two" data-role="button"> Learn More About The Sea Lions</a></h1>
+
+          <div data-role="footer" >
+            <h1>WNM 617 MIDTERM Levan Kiknadze & Yueting Lu</h1>
+          </div>
+      </div>   
+          
+      <div data-role="page" id="two">  
+        <!-- Introduction page !-->
+        <div data-role="header"><h1>California Sea Lion</h1></div> 
+        <div data-role="content">
+         <h3>About California Sea Lions</h3>
+
+          <div class="ui-grid-b">
+            <div class="ui-block-a"></div>
+            <div class="ui-block-b">
+                  <p>The California sea lion is a member of the "eared seal" family. These pinnipeds are adept at leaping distances out of the water, and are often found sitting on top of rocks, floating docks and beams under fishing piers, and even balancing on floating buoys.
+                  </p>
+                  <p>
+                  Highly social, sea lions form groups of several hundred to several thousand animals in colonies onshore. They even stick together in the water. It's not unusual to see dozens of sea lions rafted up on the surface of the bay "jugging" with their flippers sticking up out of the water. Scientists suspect this behavior may aid in maintaining a warm internal body temperature.</p>
+                  <a href="https://www.montereybayaquarium.org/animal-guide/marine-mammals/california-sea-lion"> read More ...</a>
+            </div>
+            <div class="ui-block-c"></div>
+          </div><!-- /grid-b -->
+        </div>
+          <h1> <a href="#one" data-role="button"> See the Map</a></h1>
+          <div data-role="footer" >
+            <h1>WNM 617 MIDTERM Levan Kiknadze & Yueting Lu</h1>
+          </div>
+      </div>
+
+      <!-- Marker1 page !-->
+      <div data-role="page" id="fishermanwarf">  
+        <div data-role="header"><h1>Sea Lion at Pier 39 San Francisco</h1></div> 
+
+        <div data-role="content">
+                <div class="ui-body">
+                    <div data-role="header"><h4>About Sea Lion at Pier 39</h4></div> 
+                    <div data-role="content">
+                        <p> 
+                        A few California sea lions began “hauling out” on PIER 39’s K-Dock shortly after the Loma Prieta earthquake hit San Francisco in October 1989. By January 1990, the boisterous barking pinnipeds started to arrive in droves and completely took over K-Dock, much to the exasperation of PIER 39’s Marina tenants. The Marina Staff turned to The Marine Mammal Center, an organization devoted to the rescue and rehabilitation of marine mammals, for advice about their new slippery tenants. After much debate and research, the experts from The Marine Mammal Center recommended that the sea lions stay in their newfound home.
+                        </p>
+                        <br>
+                        <a href="https://www.pier39.com/the-sea-lion-story/"> read More ...</a>
+                    </div>
+                </div>
+
+              <div data-role="header"><h4>PICTURES</h4></div> 
+              <div class="ui-grid-b">
+                  <div class="ui-block-a">
+                      <div class="ui-bar">
+                          <img src="img/fishermanwarf/1.jpg" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">                    
+                      </div>
+                  </div>
+                  <div class="ui-block-b">
+                      <div class="ui-bar">
+                          <img src="img/fishermanwarf/2.jpeg" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">                    
+                      </div>
+                  </div>   
+                 <div class="ui-block-c">
+                      <div class="ui-bar">
+                          <img src="img/fishermanwarf/3.jpg" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">                    
+                      </div>
+                  </div>   
+              </div> <!-- /grid-b -->  
+
+              <div data-role="header"><h4>Videos</h4></div>    
+              <br>                          
+              <div class="content">
+                <iframe src="https://player.vimeo.com/video/326002665" width="640" height="362" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen"></iframe>
+                <p><a href="https://vimeo.com/326002665">Sea Lion at Pier 39</a> from <a href="https://vimeo.com/user75126945">Yueting Lu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+              </div>
+        </div>
+
+        <h1> <a href="#one" data-role="button"> See the Map</a></h1>
+        <div data-role="footer" >
+          <h1>WNM 617 MIDTERM Levan Kiknadze & Yueting Lu</h1>
+        </div>
+      </div>  
+
+      <!-- Marker2 page ! -->
+      <div data-role="page" id="Marker2">  
+        <div data-role="header"><h1>California Sea Lion</h1></div> 
+        <div data-role="content">
+                <div class="ui-body">
+                    <div data-role="header"><h4>About Herschell Harkins Memorial Pier</h4></div> 
+                      <div class="content">
+                        <p> 
+                        Pacifica is home to one of the best fishing piers in the state. Because of the number and quality of the fish caught off Pacifica's shores, the pier has earned a number one ranking among anglers in the Bay Area. Although fishing can be good year round, many consider the summer months to be the best when salmon and striped bass can be caught. No admission is charged and no fishing license is required at the Pacifica Municipal Pier.
+                        </p>
+                        <p>
+                        The Rev. Herschell Harkins Memorial Pier (a.k.a. the Pacifica Municipal Pier) was built in 1973 and designed in part to serve as the support structure for the city’s now-obsolete sewer outfall line. The 1,140 feet long “L” shape pier has been closed for repairs and re-opened several times over the last decade or so. It is currently considered in good shape, though it shows the result of its age and the heavy use it receives.
+                        </p>
+                        <br>
+                        <a href="https://www.cityofpacifica.org/depts/pw/parks/pacifica_pier.asp"> read More ...</a>
+                      </div>
+                </div>
+
+              <div data-role="header"><h4>PICTURES</h4></div> 
+              <div class="ui-grid-b">
+                  <div class="ui-block-a">
+                      <div class="ui-bar">
+                          <img src="img/pacific/1.JPG" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">                    
+                      </div>
+                  </div>
+                  <div class="ui-block-b">
+                      <div class="ui-bar">
+                          <img src="img/pacific/2.PNG" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">                    
+                      </div>
+                  </div>   
+                 <div class="ui-block-c">
+                      <div class="ui-bar">
+                          <img src="img/pacific/3.PNG" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">                    
+                      </div>
+                  </div>   
+              </div> <!-- /grid-b --> 
+          </div>
+          <h1> <a href="#one" data-role="button"> See the Map</a></h1>
+        <div data-role="footer" >
+          <h1>WNM 617 MIDTERM Levan Kiknadze & Yueting Lu</h1>
+        </div>
+      </div>  
+
+
+        <!-- Marker3 page ! TODO: Can you please finish this page?-->
+      <div data-role="page" id="Marker4">  
+        <div data-role="header"><h1>California Sea Lion</h1></div> 
+       
+          
+          <div data-role="content">
+                <div class="ui-body">
+                    <div data-role="header"><h4>Point Dume State Beach and Preserve</h4></div> 
+                      <div class="content">
+                        <p> 
+                        Great small part of coastal Malibu. Too bad more southern California beaches have not been left like this. From the parking lot ($10) you can access the beach or head up the hiking trails. Trails will take you around a point that has a look out with wonderful views and if you sit there long enough you can see dolphins & sea lions playing very close to shore. I imagine at the right time of year it would also be a great place to look for whale blows. Some seabirds also abundant especially pelicans and cormorants. The dunes are full of succulents and a few lizards.
+                        </p>
+                        <br>
+                        <a href="https://www.tripadvisor.com/ShowUserReviews-g32676-d946221-r133506179-Point_Dume_State_Beach_and_Preserve-Malibu_California.html"> read More ...</a>
+                      </div>
+                </div>
+              <div data-role="header"><h4>PICTURES</h4></div> 
+              <div class="ui-grid-b">
+                  <div class="ui-block-a">
+                      <div class="ui-bar">
+                          <img src="img/malibu/sealions.jpg" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">                    
+                      </div>
+                  </div>
+                  
+              </div>   <!-- /grid-b -->  
+          </div> 
+    
+          
+          <h1> <a href="#one" data-role="button"> See the Map</a></h1>
+        <div data-role="footer" >
+          <h1>WNM 617 MIDTERM Levan Kiknadze & Yueting Lu</h1>
+        </div>
+      </div>  
+
+
+      <script type="text/javascript">
+
+        // Yueting add this funtion for jumpping to anchors in html.
+        function jump(h){
+            location.href = "#"+h; 
+            var url = location.href;               //Save down the URL without hash.
+            console.log("jump to url = " + url)                //Go to the target element.
+            history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
+        }
+
+
+        $('#one').on("pagecreate",  function(){
+            //current location
+            initialize();
+            });
+            //map marker 
+            function initialize(){
+               var latlng = new google.maps.LatLng (36.7783, -119.4179);
+               var myOptions = {
+                   zoom: 6.5,
+                   center: latlng,
+                   mapTypeId: google.maps.MapTypeId.ROADMAP
+                   };
+                var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+                                
+                var LatLng = new google.maps.LatLng(37.810746, -122.418217)
+                var Marker1 = new google.maps.Marker({
+                    icon:'img/logo.png',
+                    position: LatLng,
+                    map: map,
+                    title: 'Pier 39 San Francisco',
+                });
+
+                // By Yueting, add a listener for each icon, to jump to each location's page.
+                Marker1.addListener('click', function() {
+                 jump('fishermanwarf')
+                });
+                Marker1.setAnimation(google.maps.Animation.BOUNCE)
+
+
+                var LatLng = new google.maps.LatLng(37.303493, -122.439675)
+                var Marker2 = new google.maps.Marker({
+                    icon:'img/logo.png',
+                    position: LatLng,
+                    map: map,
+                    title: 'Pacific'
+                })
+                
+                // By Yueting, add a listener for each icon, to jump to each location's page.
+                Marker2.addListener('click', function() {
+                 jump('Marker2')
+                });
+                Marker2.setAnimation(google.maps.Animation.BOUNCE)
+
+                var LatLng = new google.maps.LatLng(40.5781, -73.9597)
+                var Marker3 = new google.maps.Marker({
+                    icon:'img/star.png',
+                    position: LatLng,
+                    map: map,
+                    title: 'Brighton Beach'
+                })
+                
+                // By Yueting, add a listener for each icon, to jump to each location's page.
+                Marker3.addListener('click', function() {
+                 jump('Marker3')
+                });
+                Marker3.setAnimation(google.maps.Animation.BOUNCE)
+
+                var LatLng = new google.maps.LatLng(34.4208, -119.6982)
+                var Marker4 = new google.maps.Marker({
+                    icon:'img/logo.png',
+                    position: LatLng,
+                    map: map,
+                    title: 'Point Dume',
+                    
+                })
+
+                // By Yueting, add a listener for each icon, to jump to each location's page.
+                Marker4.addListener('click', function() {
+                 jump('Marker4')
+                });
+                Marker4.setAnimation(google.maps.Animation.BOUNCE)
+
+            }
+        </script>
+        
+        
+   
+
+        
+        
+    </body>
+    
+    
+</html>

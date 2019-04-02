@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Components</title>
+
+	<!-- meta:vp -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/theme.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script>
+	$(function(){
+		$(".nav a").on("click",function(e){
+			e.preventDefault();
+
+			$(this).parent().addClass("active")
+				.siblings().removeClass("active")
+		})
+	})
+	</script>
+</head>
+<body>
+
+
+	<div class="container">
+		<table class="table striped">
+			<thead>
+				<tr>
+					<th>heading 1</th>
+					<th>heading 2</th>
+					<th>heading 3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- tr*4>td*3>lorem3 -->
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Necessitatibus, quam,<br>doloribus?</td>
+					<td>Illo, eaque, natus.</td>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Dicta, hic, ipsa.</td>
+					<td>Doloribus, id, quam.</td>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Eos, cumque dicta.</td>
+					<td>Tempore, fuga, ex?</td>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Expedita, fuga, modi!</td>
+					<td>Voluptates, aliquid, iure!</td>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Dicta, hic, ipsa.</td>
+					<td>Doloribus, id, quam.</td>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Eos, cumque dicta.</td>
+					<td>Tempore, fuga, ex?</td>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Expedita, fuga, modi!</td>
+					<td>Voluptates, aliquid, iure!</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>heading 1</th>
+					<th>heading 2</th>
+					<th>heading 3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- tr*4>td*3>lorem3 -->
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Necessitatibus, quam,<br>doloribus?</td>
+					<td>Illo, eaque, natus.</td>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Dicta, hic, ipsa.</td>
+					<td>Doloribus, id, quam.</td>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Eos, cumque dicta.</td>
+					<td>Tempore, fuga, ex?</td>
+				</tr>
+				<tr>
+					<td>Lorem ipsum dolor.</td>
+					<td>Expedita, fuga, modi!</td>
+					<td>Voluptates, aliquid, iure!</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+	<div class="container">
+
+		<nav class="nav nav-crumbs">
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li class="active"><a href="#">Link 5</a></li>
+			</ul>
+		</nav>
+		<nav class="nav nav-tabs">
+			<ul>
+				<li class="active"><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+			</ul>
+		</nav>
+		<nav class="nav nav-pills nav-stretch">
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li class="active"><a href="#">Link 5</a></li>
+			</ul>
+		</nav>
+		<nav class="nav nav-horizontal nav-stretch">
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li class="active"><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+			</ul>
+		</nav>
+		<nav class="nav nav-horizontal">
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li class="active"><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+			</ul>
+		</nav>
+		
+		<div class="row">
+			<div class="col-sm-4">
+				<nav class="nav">
+					<!-- ul>li*5>a[href=#]>{Link $} -->
+					<ul>
+						<li class="active"><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+						<li><a href="#">Link 4</a></li>
+						<li><a href="#">Link 5</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-sm-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas enim porro ad tenetur, architecto voluptatem quaerat, cum quasi error cumque dolorem rem pariatur est officia? Nemo voluptatibus maxime incidunt tenetur atque provident eius ut repellat iste nobis, quasi ipsam sed, illo dolore. Cupiditate excepturi a eligendi omnis expedita, amet cum ea nisi totam! Error sint obcaecati, veritatis sit eius facilis. Earum mollitia placeat quo autem odit explicabo. Corrupti, rem. Nobis.</div>
+		</div>
+
+	</div>
+
+
+	<div class="container">
+		<div class="grid">
+			<div class="row gutters-small">
+				<!-- .col-sm-12.col-lg-3*12>img.media-image[src=https://via.placeholder.com/500] -->
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+				<div class="col-sm-12 col-lg-3"><img src="https://via.placeholder.com/500" alt="" class="media-image"></div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

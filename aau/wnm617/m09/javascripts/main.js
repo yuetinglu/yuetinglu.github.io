@@ -1,9 +1,16 @@
-$(function() {
-	$("#map_canvas").googleMap({
-	  zoom: 12, // Initial zoom level (optional)
-	  coords: [40.7128, 74.0060], // Map center (optional)
-	  type: "ROADMAP" // Map type (optional)
-	});
+  $(function() {
+    $("#draggable").draggable();
+    $("#droppable").droppable({
+      drop: function(event, ui) {
+        $(this)
+        .addClass("ui-state-highlight")
+        .find("p")
+        .html("Dropped!");
+         console.log("dropped!");
+      }
+    });
+  });
+
     
     
     

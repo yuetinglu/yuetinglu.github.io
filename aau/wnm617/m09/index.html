@@ -3,14 +3,23 @@
     <head>
     <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <title>SaveBin</title>
-        <link rel="stylesheet" href="css/style.css">
+<!--         <link rel="stylesheet" href="css/style.css">
+ -->        
         <link rel="stylesheet" href="https://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css" />
         <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script type="text/javascript" src="javascripts/jquery.googlemap.js"></script>
         <script src="https://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
         <script type="text/javascript" src="javascripts/jquery.ui.touch-punch.js"></script>
-
+        <script type="text/javascript" src="javascripts/main.js"></script>
+         <style type="text/css">
+          #apple {width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 10px;}
+          #droppable {width: 150px; height: 105px; padding: 0.5em; float: left; margin: 10px 10px 10px 10px;}
+        </style>
     </head>
     
     <body>
@@ -21,16 +30,23 @@
         </div>
           
         <div data-role="content">
-          <div id="draggable" class="ui-widget-content">
-              <p> Drag me to my target</p>
+          <div id="apple">
+              <img src="img/trash/apple.png">
           </div>
 
-          <div id="droppable" class="ui-widget-header">
-            <p> Drop here</p>
+          <div id="unrecyclable">
+            <img src="img/bin/unrecyclable.png">
+          </div>
+
+          <div id="recycle">
+            <img src="img/bin/recycle.png">
+          </div>
+
+          <div id="composite">
+            <img src="img/bin/composite.png">
           </div>
 
         </div>
-
           <div data-role="footer" data-theme="a" data-position="fixed">
             <h3> WNM617 Yueting Lu </h3>
          </div>

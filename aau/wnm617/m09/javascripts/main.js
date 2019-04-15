@@ -32,7 +32,7 @@ $("#two").ready(function () {
       }
     });
 
-    $("#recycle").droppable({
+    $("#unrecyclable").droppable({
    	  accept:("#plastic"),
       tolerance:'touch',
       drop: function(event, ui) {

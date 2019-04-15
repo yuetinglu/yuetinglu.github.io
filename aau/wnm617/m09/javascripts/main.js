@@ -1,8 +1,23 @@
+
+
 $("#one").ready(function () {
     $("#accordion").accordion();
 });
 
 $("#two").ready(function () {
+
+
+    function refreshPage()
+		{
+		    jQuery.mobile.changePage(window.location.href, {
+		        allowSamePageTransition: true,
+		        transition: 'none',
+		        reloadPage: true
+		    });
+		}
+
+
+
     $("#apple").draggable();
     $("#banana").draggable();
     $("#orange").draggable();
@@ -43,6 +58,10 @@ $("#two").ready(function () {
               }
     });
 
-  });
+    $("#replay").click(function(){
+		location.reload(true);
+	});
+});
+
     
     

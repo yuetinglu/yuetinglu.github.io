@@ -437,11 +437,6 @@ a:link { color:purple; }
     height: auto;
 }
 
-.nav-icon {
-    background-image: url("img/icon/score.png");
-    background-size: 15px 15px;
-}
-
 .ui-icon-score {
     background: url(../img/icon/score.png) 50% 50% no-repeat;
     background-size: 15px 15px;

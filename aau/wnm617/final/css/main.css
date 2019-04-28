@@ -58,7 +58,6 @@ textarea {
 
 body {
     font: 16px/26px Futura, Futura Medium, Futura bold;
-    background-color: #FF0000;
 }
 
 .wrapper {
@@ -312,8 +311,8 @@ nav a:hover {
 
 /* Start with core styles outside of a media query that apply to mobile and up */
 /* Global typography and design elements, stacked containers */
-body { font-family: 
-    Helvetica, san-serif; 
+body { font-family:
+    Helvetica, san-serif;
 }
 
 H1 { color: green; }
@@ -425,19 +424,108 @@ a:link { color:purple; }
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
 
 .logo {
     position: fixed;
-    top:2%;
+    top:10%;
     left: 2%;
     max-width: 10%;
     height: auto;
 }
 
-.nav-icon {
-    background-image: url("img/icon/score.png");
+.ui-icon-score {
+    background: url(../img/icon/score.png) 50% 50% no-repeat;
+    background-size: 15px 15px;
+}
+
+.ui-icon-score::after {
+    content: none;
+}
+
+.ui-icon-game {
+    background: url(../img/icon/game.png) 50% 50% no-repeat;
+    background-size: 15px 15px;
+}
+
+.ui-icon-game::after {
+    content: none;
+}
+
+.ui-icon-friends {
+    background: url(../img/icon/friends.png) 50% 50% no-repeat;
+    background-size: 15px 15px;
+}
+
+.ui-icon-friends::after {
+    content: none;
+}
+
+.ui-icon-community {
+     background: url(../img/icon/knowledge.png) 80% 80% no-repeat;
+     background-size: 15px 15px;
+ }
+
+ .ui-icon-community::after {
+     content: none;
+ }
+
+
+.ui-icon-logo {
+    background: url(../img/logo.png) no-repeat;
     background-size: 18px 18px;
 }
+
+.ui-icon-logo::after {
+    content: none;
+}
+
+.game-img {
+max-width: 100%;
+height: auto;
+}
+
+.game-img-napkins {
+    max-width:10%
+    height: auto;
+}
+
+.game-img-plastic {
+    max-width:10px;
+    height: auto;
+}
+
+.login-background {
+    max-width: 200%;
+    height: auto;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    z-index: 0;
+    opacity: 0.5;
+}
+.game-background {
+    max-width: 200%;
+    height: auto;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    z-index: 0;
+    opacity: 0.3;
+}
+.top {
+    z-index: 1;
+}
+
+
+/*
+.ui-page {
+    background: url(../img/logo.png); !important
+    background-repeat:no-repeat;
+    background-position:right center;
+    background-attachment:scroll;
+    background-size:200% auto;
+    z-index: -1;
+}
+*/

@@ -2,7 +2,9 @@
 <html> 
     <head> 
         <title>My Page</title> 
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <link rel="stylesheet" href="css/jquery-ui-1.12.1.custom/jquery-ui.min.css" />
         <link rel="stylesheet" href="css/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css" />
         <link rel="stylesheet" href="css/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css" />
@@ -10,81 +12,94 @@
         <link rel="stylesheet" href="css/main.css" />
         <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script src="https://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/jquery.ui.touch-punch.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </head> 
     <body> 
 
-    <div data-role="page" id="login" class="background">
+    <div data-role="page" id="login" class="background ui-page-login">
+
+        <div data-role="header" data-theme="b" class="top">
+            <h1>LOGIN</h1>
+            <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
+            <a  href="#score"> <span class="ui-icon ui-corner-all ui-icon-logo"></span></a>
+        </div>
 
 
-        <!-- Add head here, should be the logo icon-->
-        <img src="img/logo.png" class="logo">
 
         <div data-role="content">   
-             <!-- Login button-->
-<!--              <button class="ui-button" data-theme="b">
-                <a href="#scan" class="ui-button"> Login</a>    
-            </button> -->
-            <a href="#scan" class="ui-button ui-corner-all centered" data-theme="b"> Login</a>    
+            <img src="img/logo.png" class="login-background">
+            <a href="#scan" class="ui-button ui-corner-all centered" data-theme="b"> Login</a>
                  
         </div><!-- /content -->
 
-        <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
+         <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
             <div data-role="navbar">
                 <ul>
-                    <li><a href="#score" data-icon="search">score</a></li>
-                    <li><a href="#game" data-icon="arrow-u">game</a></li>
-                    <li><a href="#friends" data-icon="info">friends</a></li>
-                    <li><a href="#knowledge" data-icon="home">knowledge</a></li>
+                    <li><a href="#score" data-icon="score">score</a></li>
+                    <li><a href="#game" data-icon="game">game</a></li>
+                    <li><a href="#friends" data-icon="friends">friends</a></li>
+                    <li><a href="#knowledge" data-icon="community">knowledge</a></li>
                 </ul>
-            </div><!-- /navbar -->  
+            </div><!-- /navbar -->
         </div>
 
     </div><!-- /page -->
 
 
     <div data-role="page" id="scan">
+        <div data-role="header" data-theme="b">
+            <h1>LOGIN</h1>
+             <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
+        </div>
 
-        <!-- Add head here, should be the logo icon-->
-        <img src="img/logo.png" class="logo">
 
 
-        <div data-role="content">   
-             <!-- SCAN ..-->
+
+        <div data-role="content">
+            <img src="img/logo.png" class="login-background">
+
+            <!-- SCAN ..-->
              <p class="centered"> SCANNING </p>
         </div><!-- /content -->
 
-        <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
             <div data-role="navbar">
                 <ul>
-                    <li><a href="#score" data-icon="search">score</a></li>
-                    <li><a href="#game" data-icon="arrow-u">game</a></li>
-                    <li><a href="#friends" data-icon="info">friends</a></li>
-                    <li><a href="#knowledge" data-icon="home">knowledge</a></li>
+                    <li><a href="#score" data-icon="score">score</a></li>
+                    <li><a href="#game" data-icon="game">game</a></li>
+                    <li><a href="#friends" data-icon="friends">friends</a></li>
+                    <li><a href="#knowledge" data-icon="community">knowledge</a></li>
                 </ul>
-            </div><!-- /navbar -->  
+            </div><!-- /navbar -->
         </div>
 
     </div><!-- /page -->
 
 
     <div data-role="page" id="knowledge">
- 
-        <!-- Add head here, should be the logo icon-->
-        <img src="img/logo.png" class="logo">
+        <div data-role="header" data-theme="b">
+            <h1>KNOWLEDGE</h1>
+             <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
+        </div>
 
-        <div data-role="content">   
-                 
+
+
+        <div data-role="content">
+            <img src="img/logo.png" class="login-background">
+
         </div><!-- /content -->
 
         <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
             <div data-role="navbar">
                 <ul>
-                    <li><a href="#score" data-icon="search">score</a></li>
-                    <li><a href="#game" data-icon="arrow-u">game</a></li>
-                    <li><a href="#friends" data-icon="info">friends</a></li>
-                    <li><a href="#knowledge" data-icon="home">knowledge</a></li>
+                    <li><a href="#score" data-icon="score">score</a></li>
+                    <li><a href="#game" data-icon="game">game</a></li>
+                    <li><a href="#friends" data-icon="friends">friends</a></li>
+                    <li><a href="#knowledge" data-icon="community">knowledge</a></li>
                 </ul>
-            </div><!-- /navbar -->  
+            </div><!-- /navbar -->
         </div>
 
 
@@ -92,93 +107,108 @@
 
 
     <div data-role="page" id="game">
+        <div data-role="header" data-theme="b">
+            <h1>GAME</h1>
+             <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
+        </div>
 
-         <!-- Add head here, should be the logo icon-->
-        <img src="img/logo.png" class="logo">
+         <!--&lt;!&ndash; Add head here, should be the logo icon&ndash;&gt;-->
+        <!--<img src="img/logo.png" class="logo">-->
 
         <div data-role="content">
+            <img src="img/logo.png" class="game-background">
 
-          <div class="ui-grid-b">
-              <div class="ui-block-a">
-                  <div class="ui-bar" id="apple">
-                      <img src="img/trash/apple.png" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">                    
-                  </div>
-              </div>
-              <div class="ui-block-b">
-                  <div class="ui-bar" id="banana">
-                      <img src="img/trash/banana.png" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">                    
-                  </div>
-              </div>
-              <div class="ui-block-c">
-                  <div class="ui-bar" id="napkins">
-                      <img src="img/trash/napkins.png" style="max-width: 150px; height: auto;" style="max-width: 100%; height: auto;">                    
-                  </div>
-              </div> 
-            <div class="ui-block-a">
-                <div class="ui-bar" id="orange">
-                    <img src="img/trash/orange.png" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">                    
+            <div class="ui-grid-b">
+                <div class="ui-block-a">
+                    <div class="ui-bar" id="apple">
+                        <img src="img/trash/apple.png" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">
+                    </div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="ui-bar" id="banana">
+                        <img src="img/trash/banana.png" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">
+                    </div>
+                </div>
+                <div class="ui-block-a">
+                    <div class="ui-bar" id="napkins">
+                        <img src="img/trash/napkins.png" style="max-width: 50%; height: auto;"  >
+                    </div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="ui-bar" id="orange">
+                        <img src="img/trash/orange.png"   style="max-width: 100%; height: auto;">
+                    </div>
+                </div>
+                <div class="ui-block-a">
+                    <div class="ui-bar" id="plastic">
+                        <img src="img/trash/plastic.png" style="max-width: 80%; height: auto;"  >
+                    </div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="ui-bar" id="wood">
+                        <img src="img/trash/wood.png" style="max-width: 50%; height: auto;"  >
+                    </div>
+                </div>
+                <div class="ui-block-a">
+                    <div class="ui-bar" id="unrecyclable">
+                        <img src="img/bin/unrecyclable.png" style="max-width: 100%; height: auto;"  >
+                        <p style="font-size: 12px"> UNRECYCLABLE</p>
+
+                    </div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="ui-bar" id="recycle">
+                        <img src="img/bin/recycle.png" style="max-width: 100%; height: auto;"  >
+                        <p style="font-size: 12px">RECYCLE </p>
+                    </div>
+                </div>
+                <div class="ui-block-c">
+                    <div class="ui-bar" id="composite">
+                        <img src="img/bin/composite.png" style="max-width: 100%; height: auto;"  >
+                        <p style="font-size: 12px">COMPOSITE </p>
+                    </div>
                 </div>
             </div>
-            <div class="ui-block-b">
-                <div class="ui-bar" id="plastic">
-                    <img src="img/trash/plastic.png" style="max-width: 200px; height: auto;" style="max-width: 100%; height: auto;">                    
-                </div>
+            <div id="points">
+                <p> </p>
+
             </div>
-            <div class="ui-block-c">
-                <div class="ui-bar" id="wood">
-                    <img src="img/trash/wood.png" style="max-width: 150px; height: auto;" style="max-width: 100%; height: auto;">                    
-                </div>
-            </div> 
-            <div class="ui-block-a">
-                <div class="ui-bar" id="unrecyclable">
-                    <img src="img/bin/unrecyclable.png" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">    
-                                        <p style="font-size: 20px"> </p>
-                
-                </div>
+            <div id="right-bin">
+                <p > </p>
+
             </div>
-            <div class="ui-block-b">
-                <div class="ui-bar" id="recycle">
-                    <img src="img/bin/recycle.png" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;">    
-                                        <p style="font-size: 20px"> </p>
-                
-                </div>
-            </div>
-            <div class="ui-block-c">
-                <div class="ui-bar" id="composite">
-                    <img src="img/bin/composite.png" style="max-width: 100%; height: auto;" style="max-width: 100%; height: auto;"> 
-                    <p style="font-size: 20px"> </p>
-                </div>
-            </div> 
-          </div>
-          </div>  
+        </div>
+
         <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
             <div data-role="navbar">
                 <ul>
-                    <li><a href="#score" data-icon="search">score</a></li>
-                    <li><a href="#game" data-icon="arrow-u">game</a></li>
-                    <li><a href="#friends" data-icon="info">friends</a></li>
-                    <li><a href="#knowledge" data-icon="home">knowledge</a></li>
+                    <li><a href="#score" data-icon="score">score</a></li>
+                    <li><a href="#game" data-icon="game" class="game-btn">game</a></li>
+                    <li><a href="#friends" data-icon="friends">friends</a></li>
+                    <li><a href="#knowledge" data-icon="community">knowledge</a></li>
                 </ul>
-            </div><!-- /navbar -->  
+            </div><!-- /navbar -->
         </div>
     </div><!-- /page -->
 
     <div data-role="page" id="friends">
+        <div data-role="header" data-theme="b">
+            <h1>FRIENDS</h1>
+             <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
+        </div>
 
-        <!-- Add head here, should be the logo icon-->
-        <img src="img/logo.png" class="logo">
 
-        <div data-role="content">   
-                 
+        <div data-role="content">
+
         </div><!-- /content -->
 
         <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
             <div data-role="navbar">
                 <ul>
-                    <li><a href="#score" data-icon="search">score</a></li>
-                    <li><a href="#game" data-icon="arrow-u">game</a></li>
-                    <li><a href="#friends" data-icon="info">friends</a></li>
-                    <li><a href="#knowledge" data-icon="home">knowledge</a></li>
+                    <li><a href="#score" data-icon="score">score</a></li>
+                    <li><a href="#game" data-icon="game">game</a></li>
+                    <li><a href="#friends" data-icon="friends">friends</a></li>
+                    <li><a href="#knowledge" data-icon="community">knowledge</a></li>
                 </ul>
             </div><!-- /navbar -->  
         </div>
@@ -186,9 +216,11 @@
     </div><!-- /page -->
 
     <div data-role="page" id="score">
+        <div data-role="header" data-theme="b">
+            <h1>SCORE</h1>
+             <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
+        </div>
 
-        <!-- Add head here, should be the logo icon-->
-        <img src="img/logo.png" class="logo">
 
         <div data-role="content">   
                  
@@ -197,10 +229,10 @@
         <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">
             <div data-role="navbar">
                 <ul>
-                    <li><a href="#score" data-icon="search">score</a></li>
-                    <li><a href="#game" data-icon="arrow-u">game</a></li>
-                    <li><a href="#friends" data-icon="info">friends</a></li>
-                    <li><a href="#knowledge" data-icon="home">knowledge</a></li>
+                    <li><a href="#score" data-icon="score">score</a></li>
+                    <li><a href="#game" data-icon="game">game</a></li>
+                    <li><a href="#friends" data-icon="friends">friends</a></li>
+                    <li><a href="#knowledge" data-icon="community">knowledge</a></li>
                 </ul>
             </div><!-- /navbar -->  
         </div>

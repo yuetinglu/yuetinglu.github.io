@@ -1,10 +1,6 @@
 
 
-$("#one").ready(function () {
-    $("#accordion").accordion();
-});
-
-$("#two").ready(function () {
+$("#game").ready(function () {
 
 
     function refreshPage()

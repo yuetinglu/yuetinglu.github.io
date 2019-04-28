@@ -39,7 +39,7 @@ $("#game").ready(function () {
         $("#right-bin")
         .find("p")
         .html("You found the right bin!!!")
-        .effect( "bounce", "slow" )
+        .effect( "bounce", "fast" )
         .toggle( "drop" );
 
         $(this)
@@ -48,7 +48,7 @@ $("#game").ready(function () {
         $("#points")
         .find("p")
         .html("+1")
-        .effect( "bounce", "slow" )
+        .effect( "bounce", "fast" )
         .toggle( "drop" );
       }
     });
@@ -69,19 +69,6 @@ $("#game").ready(function () {
 	});
 });
 
-
-$("#game-btn").onclick = refreshPage;
-
 $('[data-role=page]').live('pageshow', function(event) {
     refreshPage;
 })
-
-window.addEventListener( "pageshow", function ( event ) {
-  var historyTraversal = event.persisted ||
-                         ( typeof window.performance != "undefined" &&
-                              window.performance.navigation.type === 2 );
-  if ( historyTraversal ) {
-    // Handle page restore.
-    window.location.reload();
-  }
-});

@@ -518,14 +518,9 @@ height: auto;
     z-index: 1;
 }
 
-
-/*
-.ui-page {
-    background: url(../img/logo.png); !important
-    background-repeat:no-repeat;
-    background-position:right center;
-    background-attachment:scroll;
-    background-size:200% auto;
-    z-index: -1;
+#replay {
+    top: 10%;
+    right: 5%;
+    position: fixed;
+    z-index: 0;
 }
-*/

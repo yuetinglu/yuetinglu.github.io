@@ -1,10 +1,11 @@
 <!DOCTYPE html> 
 <html> 
     <head> 
-        <title>My Page</title> 
+        <title>SaveBin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon" href="img/logo.png">
         <link rel="stylesheet" href="css/jquery-ui-1.12.1.custom/jquery-ui.min.css" />
         <link rel="stylesheet" href="css/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css" />
         <link rel="stylesheet" href="css/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css" />
@@ -117,7 +118,15 @@
 
         <div data-role="content">
             <img src="img/logo.png" class="game-background">
+            </div>
+            <div id="points">
+                <p> </p>
 
+            </div>
+            <div id="right-bin">
+                <p > </p>
+
+            </div>
             <div class="ui-grid-b">
                 <div class="ui-block-a">
                     <div class="ui-bar" id="apple">
@@ -168,15 +177,6 @@
                         <p style="font-size: 12px">COMPOSITE </p>
                     </div>
                 </div>
-            </div>
-            <div id="points">
-                <p> </p>
-
-            </div>
-            <div id="right-bin">
-                <p > </p>
-
-            </div>
         </div>
 
         <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c">

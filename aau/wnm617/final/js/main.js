@@ -25,7 +25,7 @@ $("#scan").ready(function () {
     .toggle( "pulsate" , function complete() {
         jump("scan", "knowledge")
     });
-})
+});
 
 $("#game").ready(function () {
     refreshPage;
@@ -40,10 +40,21 @@ $("#game").ready(function () {
    	  accept:("#apple, #orange, #banana, #wood"),
       tolerance:'touch',
       drop: function(event, ui) {
-        $(this)
-        .addClass("ui-state-highlight")
+
+        $("#right-bin")
         .find("p")
-        .html("You found the right bin!!!");
+        .html("You found the right bin!!!")
+        .effect( "bounce", "fast" )
+        .toggle( "drop" );
+
+        $(this)
+        .effect( "bounce", "fast" );
+
+        $("#points")
+        .find("p")
+        .html("+1")
+        .effect( "bounce", "fast" )
+        .toggle( "drop" );
       }
     });
 
@@ -73,19 +84,26 @@ $("#game").ready(function () {
    	  accept:("#plastic"),
       tolerance:'touch',
       drop: function(event, ui) {
-        $(this)
-        .addClass("ui-state-highlight")
+
+        $("#right-bin")
         .find("p")
-        .html("You found the right bin!!!");
-              }
+        .html("You found the right bin!!!")
+        .effect( "bounce", "fast" )
+        .toggle( "drop" );
+
+        $(this)
+        .effect( "bounce", "fast" );
+
+        $("#points")
+        .find("p")
+        .html("+1")
+        .effect( "bounce", "fast" )
+        .toggle( "drop" );
+      }
     });
 
     $("#replay").click(function(){
 		location.reload(true);
 	});
 });
-
-$('[data-role=page]').live('pageshow', function(event) {
-    refreshPage;
-})
 

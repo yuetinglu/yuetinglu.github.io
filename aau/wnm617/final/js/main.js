@@ -11,6 +11,24 @@ function refreshPage() {
       );
 }
 
+function jump(f, h){
+    location.href = location.href.replace(f, h)                 //Go to the target element.
+    var url = location.href;               //Save down the URL without hash.
+    history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
+    refreshPage();
+}
+
+$("#scan").ready(function () {
+
+
+    $(".scan")
+    .toggle( "pulsate" , function complete() {
+        jump("scan", "knowledge")
+    });
+
+
+})
+
 $("#game").ready(function () {
     refreshPage;
     $("#apple").draggable();
@@ -72,3 +90,4 @@ $("#game").ready(function () {
 $('[data-role=page]').live('pageshow', function(event) {
     refreshPage;
 })
+

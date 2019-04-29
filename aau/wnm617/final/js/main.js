@@ -18,15 +18,13 @@ function jump(f, h){
     refreshPage();
 }
 
+
 $("#scan").ready(function () {
-
-
-    $(".scan")
+    refreshPage();
+    $(".scan-img")
     .toggle( "pulsate" , function complete() {
         jump("scan", "knowledge")
     });
-
-
 })
 
 $("#game").ready(function () {

@@ -20,11 +20,16 @@ function jump(f, h){
 
 
 $("#scan").ready(function () {
-    refreshPage();
+
     $(".scan-img")
     .toggle( "pulsate" , function complete() {
         jump("scan", "knowledge")
     });
+
+    $(".scan-img")
+    .click(function(){
+        location.reload(true);
+     });
 });
 
 $("#game").ready(function () {

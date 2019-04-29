@@ -11,24 +11,27 @@ function refreshPage() {
       );
 }
 
-function jump(f, h){
-    location.href = location.href.replace(f, h)                 //Go to the target element.
-    var url = location.href;               //Save down the URL without hash.
-    history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
-    refreshPage();
-}
-
+//function jump(f, h){
+//    location.href = location.href.replace(f, h)                 //Go to the target element.
+//    var url = location.href;               //Save down the URL without hash.
+//    history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
+//    refreshPage();
+//}
+function jump(hash) { location.replace("#" + hash) }
 
 $("#scan").ready(function () {
 
-    $(".scan-img")
-    .toggle( "pulsate" , function complete() {
-        jump("scan", "knowledge")
-    });
+//    $(".scan-img")
+//    .toggle( "pulsate" , function complete() {
+//        jump("scan", "knowledge")
+//    });
 
     $(".scan-img")
     .click(function(){
-        location.reload(true);
+        $(".scan-img")
+        .toggle( "pulsate" , function complete() {
+            jump("knowledge")
+        });
      });
 });
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head> 
-        <title>SaveBin</title>
+        <title>SAVBIN</title>
         <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -22,7 +22,7 @@
 
     <div data-role="page" id="login" class="ui-page-login">
         <div data-role="header" data-theme="b" class="top">
-            <h1>LOGIN</h1>
+            <h1>SAVBIN</h1>
             <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span>   HOME </a>
             <a href="#score"> <span class="ui-icon ui-icon-avatar"></span></a >
 
@@ -47,7 +47,7 @@
 
     <div data-role="page" id="scan">
         <div data-role="header" data-theme="b" class="top">
-            <h1>LOGIN</h1>
+            <h1>SAVBIN</h1>
              <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
              <a href="#score"> <span class="ui-icon ui-icon-avatar"></span></a >
 
@@ -76,16 +76,16 @@
 
     <div data-role="page" id="knowledge">
         <div data-role="header" data-theme="b" class="top">
-            <h1>KNOWLEDGE</h1>
+            <h1>SAVBIN</h1>
              <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
              <a href="#score"> <span class="ui-icon ui-icon-avatar"></span></a >
-
         </div>
 
 
 
         <div data-role="content">
             <img src="img/background.png" class="background" alt="background">
+            <h2>Welcome to SAVBIN </h2>
             <div data-role="collapsible-set" data-mini="true" data-theme="d" data-iconpos="right">
 
                 <div data-role="collapsible" data-collapsed="false">
@@ -157,27 +157,15 @@
 
     <div data-role="page" id="game">
         <div data-role="header" data-theme="b"  class="top">
-            <h1>GAME</h1>
+            <h1>SAVBIN</h1>
              <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
              <a href="#score"> <span class="ui-icon ui-icon-avatar"></span></a >
 
         </div>
 
-         <!--&lt;!&ndash; Add head here, should be the logo icon&ndash;&gt;-->
-        <!--<img src="img/logo.png" class="logo">-->
-
         <div data-role="content">
             <img src="img/background.png" class="game-background"  alt="game-background">
-            </div>
-            <div id="points">
-                <p> </p>
-
-            </div>
-            <div id="right-bin">
-                <p > </p>
-
-            </div>
-        <button id="replay"> replay </button>
+            <button id="replay"> replay </button>
             <div class="ui-grid-b">
                 <div class="ui-block-a">
                     <div class="ui-bar" id="apple">
@@ -229,6 +217,14 @@
                         <p style="font-size: 12px">COMPOSITE </p>
                     </div>
                 </div>
+
+                </div>
+                <div id="points" >
+                    <p class="winPoint"> </p>
+                </div>
+                <div id="right-bin">
+                    <p class="winPoint"> </p>
+                </div>
         </div>
 
         <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
@@ -245,7 +241,7 @@
 
     <div data-role="page" id="friends">
         <div data-role="header" data-theme="b" class="top">
-            <h1>FRIENDS</h1>
+            <h1>SAVBIN</h1>
              <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
              <a href="#score"> <span class="ui-icon ui-icon-avatar"></span></a >
 
@@ -272,16 +268,16 @@
 
     <div data-role="page" id="score">
         <div data-role="header" data-theme="b"  class="top">
-            <h1>SCORE</h1>
-             <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
-             <a href="#score"> <span class="ui-icon ui-icon-avatar"></span></a >
+            <h1>SAVBIN</h1>
+            <a  href="#knowledge"> <span class="ui-icon ui-corner-all ui-icon-logo"></span> HOME</a>
+            <a href="#score"> <span class="ui-icon ui-icon-avatar"></span></a >
         </div>
 
 
         <div data-role="content">
             <img src="img/background.png" class="background"  alt="background">
             <div class="centered">
-             <img src="img/score.png" class="score" alt="score">
+                <img src="img/score.png" class="score" alt="score">
             </div>
 
         </div><!-- /content -->
@@ -296,7 +292,6 @@
                 </ul>
             </div><!-- /navbar -->
         </div>
-
 
     </div><!-- /page -->
 

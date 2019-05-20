@@ -593,8 +593,10 @@ height: auto;
  }
 
  .score {
-       max-width: 110%;
+       max-width: 100%;
        height: auto;
+       margins: 2px 2px 2px 2px;
+
    }
 
 .friends {

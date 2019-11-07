@@ -1,0 +1,124 @@
+.worksButtion {
+  width: 36.1px;
+  height: 48.8px;
+  background-color: #696883;
+}
+
+.worksTextOnButtion {
+  width: 22.9px;
+  height: 17.6px;
+  font-family: Futura;
+  font-size: 6px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.aboutButton {
+  width: 38.6px;
+  height: 48.8px;
+  opacity: 0.33;
+  background-color: #696883;
+}
+
+.aboutTextButton {
+  width: 21px;
+  height: 17.6px;
+  font-family: Futura;
+  font-size: 6px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #696883;
+}
+
+.logo {
+  width: 18.3px;
+  height: 18.3px;
+  background-color: #696883;
+}
+
+.aboutMeTitle {
+  width: 89px;
+  height: 48.7px;
+  font-family: Futura;
+  font-size: 1.9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f0f0f0;
+}
+
+.aboutMeContent {
+  width: 436px;
+  height: 111.5px;
+  font-family: Futura;
+  font-size: 8px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.moreAboutMe {
+  width: 113.2px;
+  height: 23.7px;
+  font-family: Futura;
+  font-size: 8px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3460ab;
+}
+
+.image1 {
+  width: 323.5px;
+  height: 234px;
+  object-fit: contain;
+}
+
+.image2 {
+  width: 310.5px;
+  height: 233px;
+  object-fit: contain;
+}
+
+.image3 {
+  width: 380.5px;
+  height: 254px;
+  object-fit: contain;
+}
+
+.image4 {
+  width: 257px;
+  height: 254px;
+  background-color: #dddddd;
+}
+
+.image5 {
+  width: 269.5px;
+  height: 254px;
+  background-color: #dddddd;
+}
+
+.image6 {
+  width: 363.5px;
+  height: 254px;
+  background-color: #dddddd;
+}

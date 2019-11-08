@@ -2,20 +2,8 @@
   width: 36.1px;
   height: 48.8px;
   background-color: #696883;
-}
-
-.worksTextOnButtion {
-  width: 22.9px;
-  height: 17.6px;
-  font-family: Futura;
-  font-size: 6px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.19;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
+  padding: 40px;
+  text-align: center;
 }
 
 .aboutButton {
@@ -23,6 +11,8 @@
   height: 48.8px;
   opacity: 0.33;
   background-color: #696883;
+  padding: 40px;
+  text-align: center;
 }
 
 .aboutTextButton {
@@ -35,7 +25,7 @@
   font-style: normal;
   line-height: 0.19;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   color: #696883;
 }
 
@@ -46,10 +36,10 @@
 }
 
 .aboutMeTitle {
-  width: 89px;
-  height: 48.7px;
+/*  width: 89px;
+  height: 48.7px;*/
   font-family: Futura;
-  font-size: 1.9px;
+  font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -57,13 +47,15 @@
   letter-spacing: normal;
   text-align: left;
   color: #f0f0f0;
+  text-align: center;
+  padding: 40px;
 }
 
 .aboutMeContent {
-  width: 436px;
-  height: 111.5px;
+/*  width: 436px;
+  height: 111.5px;*/
   font-family: Futura;
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -71,20 +63,21 @@
   letter-spacing: normal;
   text-align: left;
   color: #707070;
+  text-align: center;
+  padding: 20px;
 }
 
 .moreAboutMe {
-  width: 113.2px;
-  height: 23.7px;
   font-family: Futura;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 0.21;
   letter-spacing: normal;
-  text-align: left;
+  text-align: right;
   color: #3460ab;
+  padding: 20px;
 }
 
 .image1 {

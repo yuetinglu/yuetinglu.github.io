@@ -1,38 +1,40 @@
+@import
+url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+
+.body {
+	font:Futura;
+}
+.index-nav {
+	float: right;
+	 width: 300px;
+	 margin-bottom: : 2%;
+}
+
 .worksButtion {
-  width: 36.1px;
-  height: 48.8px;
+  width: 80px;
+  height: 80px;
   background-color: #696883;
-  padding: 40px;
+  line-height: 10px;
   text-align: center;
 }
 
 .aboutButton {
-  width: 38.6px;
-  height: 48.8px;
+  width: 80px;
+  height: 80px;
   opacity: 0.33;
   background-color: #696883;
-  padding: 40px;
   text-align: center;
-}
-
-.aboutTextButton {
-  width: 21px;
-  height: 17.6px;
-  font-family: Futura;
-  font-size: 6px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.19;
-  letter-spacing: normal;
-  text-align: center;
-  color: #696883;
+  line-height: 10px;
 }
 
 .logo {
   width: 18.3px;
   height: 18.3px;
   background-color: #696883;
+}
+
+.index-text {
+	margin : 5%;
 }
 
 .aboutMeTitle {
@@ -43,12 +45,9 @@
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  text-align: left;
-  color: #f0f0f0;
   text-align: center;
-  padding: 40px;
+  color: #f0f0f0;
+  float: center;
 }
 
 .aboutMeContent {
@@ -61,10 +60,9 @@
   font-style: normal;
   line-height: 1.88;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   color: #707070;
   text-align: center;
-  padding: 20px;
 }
 
 .moreAboutMe {
@@ -77,41 +75,21 @@
   letter-spacing: normal;
   text-align: right;
   color: #3460ab;
-  padding: 20px;
 }
 
-.image1 {
-  width: 323.5px;
-  height: 234px;
-  object-fit: contain;
+.indexImageSection {
+  padding: 5%;
 }
 
-.image2 {
-  width: 310.5px;
-  height: 233px;
-  object-fit: contain;
+.indexImageSection div {
+  padding: 2px;
 }
 
-.image3 {
-  width: 380.5px;
-  height: 254px;
-  object-fit: contain;
-}
-
-.image4 {
-  width: 257px;
-  height: 254px;
-  background-color: #dddddd;
-}
-
-.image5 {
-  width: 269.5px;
-  height: 254px;
-  background-color: #dddddd;
-}
-
-.image6 {
-  width: 363.5px;
-  height: 254px;
-  background-color: #dddddd;
+.indexImageSection img {
+  max-width: auto;
+  max-height:400px;
+  padding: 1px;
+  margin-right: 1%;
+  margin-left: 1%;
+  object-fit: cover;
 }

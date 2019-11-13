@@ -4,10 +4,33 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 .body {
 	font:Futura;
 }
-.index-nav {
-	float: right;
-	 width: 300px;
-	 margin-bottom: : 2%;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+/*  padding: 2px 2px;
+*/  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.logo {
+	margin: 15px 15px;
 }
 
 .worksButtion {

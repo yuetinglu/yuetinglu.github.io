@@ -116,3 +116,206 @@ li a:hover {
   margin-left: 1%;
   object-fit: cover;
 }
+
+.imgMe {
+	max-height:300px;
+}
+
+.about-title {
+  width: 64.5px;
+  height: 35.5px;
+  font-family: Futura;
+  font-size: 12.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.aboutRow1 {
+	margin: 20%;
+}
+
+.aboutRow2 {
+	margin: 5%;
+}
+
+.about-content {
+  width: 186px;
+  height: 173.6px;
+  font-family: Futura;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6a6b6c;
+}
+
+.aboutDetailTitle {
+  width: 64.5px;
+  height: 35.5px;
+  font-family: Futura;
+  font-size: 12.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  color: #313133;
+  margin-top: 5%;
+}
+
+.aboutDetailContent {
+  width: 188.3px;
+  height: 154.9px;
+  font-family: Futura;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #313133;
+}
+
+.BH {
+  width: 153.4px;
+  height: 23.8px;
+  font-family: Futura;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #36322f;
+}
+
+.BHText {
+  width: 268.4px;
+  height: 41.2px;
+  font-family: Futura;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #747577;
+}
+
+.BHContainer {
+	margin-top: 5%;
+	margin-bottom: 40%;
+}
+
+.arrow {
+  width: 2%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.BHOverview {
+  width: 89.9px;
+  height: 17.9px;
+  font-family: Futura;
+  font-size: 12.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.72;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ee994a;
+}
+
+.BHOverviewContent {
+  width: 384.5px;
+  height: 93.8px;
+  font-family: Futura;
+  font-size: 9px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #464749;
+}
+
+.BHProblem {
+  font-family: Futura;
+  font-size: 12.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #ee994a;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.greyBox {
+  background-color: #f1f2f2;
+  padding: 2%;
+}
+
+.BHTitle {
+  font-family: Futura;
+  font-size: 12.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.72;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f77e0b;	
+}
+
+.SolutionTitle {
+  font-size: 9px;
+  font-weight: bold;
+  color: #3460ab;
+  margin: 1px;
+}
+.boxContent {
+  font-family: Futura;
+  font-size: 8px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #464749;
+  margin: 1px;
+}
+
+.BHCompetitor {
+	height: auto;
+	width: 70%;
+	display: block;
+}
+
+.container {
+	margin-bottom: 2%;
+}
+
+.AIMap {
+	height: auto;
+	width: 70%;
+	display: block;
+}

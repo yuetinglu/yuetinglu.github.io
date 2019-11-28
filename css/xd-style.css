@@ -6,17 +6,23 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 }
 
 .topnav {
-  position: absolute;
-  left: 1%;
-  top: 1%;
-  margin-bottom: 10%;
+  position:absolute;
+  top: 0;
+  right: 0;
 }
+
 ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
   overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
   float: left;
-  margin-bottom: 10%;
 }
 
 li a {
@@ -26,13 +32,10 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
 .logo {
 	margin: 15px 15px;
+  width: 18.3px;
+  height: 18.3px;
 }
 
 .worksButtion {
@@ -50,11 +53,6 @@ li a:hover {
   text-align: center;
   line-height: 10px;
   text-decoration-color: black;
-}
-
-.logo {
-  width: 18.3px;
-  height: 18.3px;
 }
 
 /*
@@ -101,8 +99,8 @@ Index page
 }
 
 .indexImageSection img {
-	height: 80%;
-	width: auto;
+	width: 80%;
+	height: auto;
 }
 
 .overlay {

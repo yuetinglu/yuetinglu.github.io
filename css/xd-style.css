@@ -204,10 +204,8 @@ Index page
 }
 
 .BH {
-  width: 153.4px;
-  height: 23.8px;
   font-family: Futura;
-  font-size: 18px;
+  font-size: 36px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -237,8 +235,11 @@ Index page
 }
 
 .greyBox {
+  position: relative;
+  left: 0px;
   background-color: #f1f2f2;
   padding: 2%;
+  margin-bottom: 5%;
 }
 
 .projectSubHead {
@@ -295,7 +296,7 @@ Index page
 }
 
 .container {
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 }
 
 .AIMap {

@@ -326,6 +326,20 @@ Index page
 	float: center;
 }
 
+.hachubStoryboardImage {
+  height: auto;
+  width: 90%;
+  display: block;
+  float: right;
+}
+
+.hachubAnImage {
+  height: auto;
+  width: 110%;
+  display: block;
+  float: right;
+}
+
 .contentText {
 	font-family: Futura;
 	font-size: 16px;
@@ -336,6 +350,7 @@ Index page
 	letter-spacing: normal;
 	text-align: left;
 	color: #464749;
+  margin-top: 15px;
 }
 
 .pieChart1 {
@@ -351,6 +366,33 @@ Index page
 	display: block;
 	margin-top: 60px;
 	margin-bottom: 60px;
+}
+
+.hachubIAImage {
+  height: 220px;
+  width: auto;
+  display: block;
+  margin-top: 15px;
+}
+
+.hachubIAImage1 {
+  height: 450px;
+  width: auto;
+  display: block;
+  margin-top: 15px;
+}
+
+.hackhubWireframeImg {
+  height: 100%;
+  width: auto;
+  display: block;
+  margin-bottom: 60px;
+}
+
+.signUpFlowImg {
+  margin-bottom: 30px;
+  display: block;
+  float: left;
 }
 
 .survey {
@@ -402,5 +444,3 @@ Index page
   width: 70%;
   display: block;
 }
-
-

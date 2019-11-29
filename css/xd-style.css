@@ -444,3 +444,9 @@ Index page
   width: 70%;
   display: block;
 }
+
+.quickBuyImg {
+  height: auto;
+  width: 90%;
+  display: block; 
+}

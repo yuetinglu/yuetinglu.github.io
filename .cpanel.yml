@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home1/yueting1/public_html/
     - /bin/cp -a /home1/yueting1/repository/website-design/. $DEPLOYPATH
+    - /bin/cp -r /home1/yueting1/repository/website-design/.[a-zA-Z0-9]* $DEPLOYPATH

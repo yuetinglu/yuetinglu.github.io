@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/yueting1/public_html
-    - /bin/cp -R /home1/yueting1/repository/website-design/ $DEPLOYPATH
+    - export DEPLOYPATH=/home1/yueting1/public_html/
+    - /bin/cp -a /home1/yueting1/repository/website-design/. $DEPLOYPATH

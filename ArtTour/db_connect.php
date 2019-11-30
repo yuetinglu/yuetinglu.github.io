@@ -8,7 +8,7 @@ function console_log( $data ){
 
 
 //Your host should be "localhost"
-$db_host = "www.yuetinglu.com";
+$db_host = "localhost";
 $user_name = "yueting1_fine_art";
 $user_password = "luyueting1115";
 $db_name = "yuetingl_WNM608";

@@ -9,9 +9,9 @@ function console_log( $data ){
 
 //Your host should be "localhost"
 $db_host = "www.yuetinglu.com";
-$user_name = "yueting1_fine_art";
+$user_name = "yueting1_art";
 $user_password = "luyueting1115";
-$db_name = "yueting1_art_work";
+$db_name = "yueting1_fine_art";
 
 $conn = new mysqli(
 	$db_host,

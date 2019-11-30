@@ -1,3 +1,3 @@
     $(function(){
-      $(".navigation-include").load("navigation.html"); 
+      $(".navigation-include").load("http://www.yuetinglu.com/navigation.html"); 
     });

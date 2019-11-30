@@ -48,7 +48,6 @@ $wherein_string = isset($_GET['where']) && isset($_GET['in']) ?
 	$wherewhat_string
 	$wherelike_string
 	$wherein_string
-	$orderby_string
 	$limit_string
 	";
 

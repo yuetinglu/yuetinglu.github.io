@@ -18,34 +18,40 @@
 		<div class="grid">
 			<div class="row gutters">
 				<div class="col-sm-6 col-md-3">
-					<a href="product-detail.html">
+					<a href="product-detail.html?id=2">
 					<div class="product">
 					    <img src="img/2.png" alt="" class="media-image">
 					</div>
 				    </a>
 				</div>
-
 				<div class="col-sm-6 col-md-3">
+					<a href="product-detail.html?id=6">
 					<div class="product">
-						<img src="img/6.png" alt="" class="media-image">
-						
+					    <img src="img/6.png" alt="" class="media-image">
 					</div>
-					
+				    </a>
 				</div>
 				<div class="col-sm-6 col-md-3">
-				<a href="product-detail.html">
-					<div class="product">
-						<img src="img/7.png" alt="" class="media-image">
-						
-					</div>
-				</a>
-					
+					<a href="product-detail.html?id=7">
+						<div class="product">
+							<img src="img/7.png" alt="" class="media-image">	
+						</div>
+					</a>
 				</div>
 				<div class="col-sm-6 col-md-3">
-					<div class="product">
-						<img src="img/8.png" alt="" class="media-image">
+					<a href="product-detail.html?id=8">
+						<div class="product">
+							<img src="img/8.png" alt="" class="media-image">	
+						</div>
+					</a>
 				</div>
-			    </div>
+				<div class="col-sm-6 col-md-3">
+					<a href="product-detail.html?id=3">
+						<div class="product">
+							<img src="img/3.png" alt="" class="media-image">	
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
   </body>

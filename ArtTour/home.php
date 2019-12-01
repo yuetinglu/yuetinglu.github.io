@@ -17,36 +17,36 @@
 		<!-- .grid>.row.gutters>.col-sm-6.col-md-3*4>.product>img.media-image[src=https://via.placeholder.com/500]+.product-description>button{Add To Cart} -->
 		<div class="grid">
 			<div class="row gutters">
-				<div class="col-sm-6 col-md-3">
+				<div class="col-sm-6 col-md-2">
 					<a href="product-detail.html?id=2">
 					<div class="product">
 					    <img src="img/2.png" alt="" class="media-image">
 					</div>
 				    </a>
 				</div>
-				<div class="col-sm-6 col-md-3">
-					<a href="product-detail.html?id=6">
+				<div class="col-sm-6 col-md-2">
+					<a href="product-item.html?id=6">
 					<div class="product">
 					    <img src="img/6.png" alt="" class="media-image">
 					</div>
 				    </a>
 				</div>
-				<div class="col-sm-6 col-md-3">
-					<a href="product-detail.html?id=7">
+				<div class="col-sm-6 col-md-2">
+					<a href="product-item.html?id=7">
 						<div class="product">
 							<img src="img/7.png" alt="" class="media-image">	
 						</div>
 					</a>
 				</div>
-				<div class="col-sm-6 col-md-3">
-					<a href="product-detail.html?id=8">
+				<div class="col-sm-6 col-md-2">
+					<a href="product-item.html?id=8">
 						<div class="product">
 							<img src="img/8.png" alt="" class="media-image">	
 						</div>
 					</a>
 				</div>
-				<div class="col-sm-6 col-md-3">
-					<a href="product-detail.html?id=3">
+				<div class="col-sm-6 col-md-2">
+					<a href="product_item.html?id=3">
 						<div class="product">
 							<img src="img/3.png" alt="" class="media-image">	
 						</div>

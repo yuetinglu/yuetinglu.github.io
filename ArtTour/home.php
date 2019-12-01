@@ -18,13 +18,6 @@
 		<div class="grid">
 			<div class="row gutters">
 				<div class="col-sm-6 col-md-2">
-					<a href="product-detail.html?id=2">
-					<div class="product">
-					    <img src="img/2.png" alt="" class="media-image">
-					</div>
-				    </a>
-				</div>
-				<div class="col-sm-6 col-md-2">
 					<a href="product_item.php?id=6">
 					<div class="product">
 					    <img src="img/6.png" alt="" class="media-image">

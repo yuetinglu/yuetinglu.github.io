@@ -5,54 +5,49 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 	font:Futura;
 }
 
-.topnav {
-  position:absolute;
-  top: 0;
-  right: 0;
-}
 
-ul {
+.nav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  height: 180px;
 }
 
-li {
-  float: left;
-}
-
-li a {
+/*.nav li a {
   display: block;
   color: white;
   text-align: center;
   text-decoration: none;
+}*/
+
+.navButton {
+  float: right;
 }
 
 .logo {
-	margin: 15px 15px;
-  width: 18.3px;
-  height: 18.3px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .worksButtion {
   width: 80px;
   height: 80px;
   background-color: #696883;
-  line-height: 10px;
   text-align: center;
+  color: #D7D6EA;
+  padding: 0;
+  margin: 0;
 }
 
 .aboutButton {
   width: 80px;
   height: 80px;
-  background-color: #696883;
+  background-color: #D7D6EA;
   text-align: center;
-  line-height: 10px;
-  text-decoration-color: black;
+  color: #696883;
+  padding: 0;
+  margin: 0;
 }
 
 /*
@@ -138,10 +133,8 @@ Index page
 }
 
 .about-title {
-  width: 64.5px;
-  height: 35.5px;
   font-family: Futura;
-  font-size: 12.5px;
+  font-size: 25px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -160,10 +153,8 @@ Index page
 }
 
 .about-content {
-  width: 186px;
-  height: 173.6px;
   font-family: Futura;
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -174,10 +165,8 @@ Index page
 }
 
 .aboutDetailTitle {
-  width: 64.5px;
-  height: 35.5px;
   font-family: Futura;
-  font-size: 12.5px;
+  font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -186,21 +175,21 @@ Index page
   text-align: left;
   color: #707070;
   color: #313133;
-  margin-top: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: bold;
 }
 
 .aboutDetailContent {
-  width: 188.3px;
-  height: 154.9px;
   font-family: Futura;
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.88;
   letter-spacing: normal;
   text-align: left;
   color: #313133;
+  font-weight: medium;
 }
 
 .BH {

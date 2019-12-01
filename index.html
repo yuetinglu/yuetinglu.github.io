@@ -7,16 +7,14 @@
   <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
   <link rel="stylesheet" type="text/css" href="css/xd-style.css" media="screen"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/7798f44d04.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="icon" href="img/general/icon.png">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -49,11 +47,11 @@
         </div>
       </div>
     </div>
+  </div> 
 
 <!-- header -->
-  </div> 
   <div class="container">
-    <div class="row index-text">
+    <div class="row index-text index-header">
       <div class="col-12 align-self-center">
         <h1 class="aboutMeTitle"> 
           YUETING LU
@@ -70,7 +68,7 @@
 
 <!-- works images -->
 <div class="container indexImageSection">
-  <div class="row">
+  <div class="row index-header">
       <div class="col-6 indexImg">
         <a href="quickBuy.html">
           <img src="img/index/1.png" alt="under constructing...">
@@ -128,30 +126,31 @@
 </div>
 
   <!-- Footer -->
-  <footer>
+  <footer class="greyBox">
+    <div class="footer container">
+      <ul class = "row flex-parent" style="list-style-type:none">
+        <li class = "col-sm-7 col-md-4">
+          <p><a href="index.html">WORKS</a></p>
+          <p><a href="about.html">ABOUT</a></p>
+          <p><a href="about.html">CONTACT</a></p>
+        </li>
+        <li class = "col-sm-7 col-md-4 flex-child">
+            <p>Yueting Lu</p>
+            <p>Academy of Art University</p>
+            <p>San Francisco, CA</p>
+            <p>Email: <a href="mailto:someone@example.com">contact@yuetinglu.com</a></p>
+        </li>
+        <li class = "col-sm-7 col-md-4">
+          <p>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="list-inline">
-            <li class="footer-menu-divider">
-              <a href="#">Home</a>
-            </li>
-            <li class="footer-menu-divider">&sdot;</li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li class="footer-menu-divider">&sdot;</li>
-            <li>
-              <a href="#portfolio">portfolio</a>
-            </li>
-            <li class="footer-menu-divider">&sdot;</li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+            <a href="#" class="fab fa-facebook-square fa-3x"></a>
+            <a href="#" class="fab fa-twitter-square fa-3x"></a>
+          </p>
+          <p>
+            <a href="#" class="fab fa-instagram fa-3x"></a>
+            <a href="#" class="fab fa-pinterest-square fa-3x"></a>            
+        </li>
+      </ul>
     </div>
   </footer>
 <!-- Page1 End -->

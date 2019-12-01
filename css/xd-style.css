@@ -102,6 +102,10 @@ Index page
 	margin : 1%;
 }
 
+.index-header {
+  margin-top: 300px;
+}
+
 .aboutMeTitle {
   font-family: Futura;
   font-size: 50px;
@@ -136,6 +140,10 @@ Index page
   color: #3460ab;
   float: right;
   margin-right:50px;
+}
+
+.indexImageSection {
+  margin-top: 200px;
 }
 
 .indexImageSection img {

@@ -261,16 +261,51 @@ Index page
 	margin-top: 5%;
 	margin-bottom: 40%;
 }
+/* from: https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation4; */
 
 .arrow {
-  width: 2%;
+  width: 60px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30%;
-  margin-top: 10%
+  margin-top: 10%;
+  position: relative;
+   /* Safari 4.0 - 8.0 */
+  -webkit-animation-name: arrow;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  /* Standard syntax */
+  animation-name: arrow;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes arrow {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:10px;}
+  50%  {left:0px; top:20px;}
+  75%  {left:0px; top:30px;}
+  100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes arrow {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:10px;}
+  50%  {left:0px; top:20px;}
+  75%  {left:0px; top:30px;}
+  100% {left:0px; top:0px;}
+}
+
 
 .projectTitleCenter {
   text-align: center;

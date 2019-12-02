@@ -3,6 +3,7 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 */
 .body {
 	font:Futura;
+  font-size: 16px;
 }
 
 
@@ -139,12 +140,16 @@ Index page
   text-align: right;
   color: #3460ab;
   float: right;
-  margin-right:50px;
+  
 }
 
-.indexImageSection {
-  margin-top: 200px;
+.blank {
+  height: 100px;
 }
+
+/*.indexImageSection {
+  margin-top: 10%;
+}*/
 
 /*.indexImageSection img {
 	width: auto;

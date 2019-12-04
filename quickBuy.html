@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>QUICK BUY - Yueting Lu</title>
+    <title>Yueting Lu</title>
     <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" type="text/css" href="css/xd-style.css" media="screen"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7798f44d04.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="icon" href="img/general/icon.png">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <!--   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-   -->  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/navigation.js"></script>
-
   </head>
   <body>
 
-  <!-- Navigation -->
-  <div class="navigation-include">
-      This message is going to be replaced by the include file.
-  </div>
+<!-- Navigation -->
+<div id="navbar">
+  <div class="row">
+    <div class="col-1">
+      <a href="index.html" class="logo">        
+        <img src="img/general/logo.png" alt="icon">
+      </a>
+    </div>
+    <div class="col-11 align-self-center">
+      <a href="about.html" class="navButton">        
+        <button class="aboutButton">
+        ABOUT
+        </button>
+      </a>
+      <div class="navButton dropdown">     
+        <button class="dropbtn">
+        WORKS
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="quickBuy.html">QUICK BUY</a>
+          <a href="LaFondue.html">LA FONDUE</a>
+          <a href="hackHub.html">HACKAHUP</a>
+          <a href="BH.html">B&H REDESIGN</a>
+          <a href="IDN.html">IDN</a>
+          <a href="ArtTour/index.php">ART TOUR</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
 
 
     <div class="container BHContainer">
@@ -51,12 +73,12 @@
   <!--WORDLIST -->
   <section class="container indexImageSection" id="overview">
     <div class="row">
-        <div class="col-4 align-self-center">
+        <div class="col-lg-4 col-md-12 col-sm-12 align-self-center">
             <p class="projectTitle">
               WORDLIST
             </p>
         </div>
-        <div class="col-8">
+        <div class="col-lg-8 col-md-12 col-sm-12">
           <img src="img/quickBuy/wordList.png">
         </div>
     </div>
@@ -66,12 +88,12 @@
   <div class="greyBox">
     <section class="container">
       <div class="row">
-          <div class="col-4 align-self-center">
+          <div class="col-lg-4 col-md-4 col-sm-12 align-self-center">
               <p class="projectTitle">
                 MISSION
               </p>
           </div>
-          <div class="col-8">
+          <div class="col-lg-8 col-md-8 col-sm-12">
             <p class="contentText">
             Shopping is an important and necessary part of our lives. Although online shopping will bring convenience to people, online shopping requires people to take the time to wait. Sometimes you need to get something right away, but you can't find it quickly. Then you need a shopping assistant to help you get what you want immediately. Quick buy can tell you fastest way to get item (online or onsite) and where to buy them.
             </p>
@@ -83,12 +105,12 @@
   <!--PROBLEM -->
   <section class="container">
     <div class="row">
-        <div class="col-4 align-self-center">
+        <div class="col-lg-4 col-md-4 col-sm-12 align-self-center">
             <p class="projectTitle">
               PROBLEM
             </p>
         </div>
-        <div class="col-8">
+        <div class="col-lg-8 col-md-8 col-sm-12">
           <p class="contentText">
           I often shopping on Amazon.com, although some goods can be delivered at the same day. But for most of them we need to wait for one to two days. If you want to buy something immediately and often need go several stores to find what I need, it wastes a lot of time. I believe that many people have such problems, so I came out of this idea.
           </p>
@@ -101,22 +123,34 @@
     <div class="container">
       <p class="projectTitle projectTitleCenter">RATIONAL</p>  
       <div class="row">
-          <div class="col-3">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="iconNum">
+              <img src="img/general/01.png" >
+            </div>
             <p class="contentText">
               It is a website that combines online and physical stores.
             </p>
           </div>
-          <div class="col-3">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="iconNum">
+              <img src="img/general/02.png" >
+            </div>
             <p class="contentText">
               It is a website that can helps you get the commodity in shortest time.
             </p>
           </div>    
-          <div class="col-3">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="iconNum">
+              <img src="img/general/03.png" >
+            </div>
             <p class="contentText">
               It is a website that you can get everything in one website.
             </p>
           </div> 
-          <div class="col-3">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="iconNum">
+              <img src="img/general/04.png" >
+            </div>
             <p class="contentText">
               It is a website that can helps you save time on shopping.
             </p>
@@ -128,12 +162,12 @@
   <!--UNIQUE POSITIONING STATEMENT -->
   <section class="container">
     <div class="row">
-        <div class="col-4 align-self-center">
+        <div class="col-lg-4 col-md-4 col-sm-12 align-self-center">
             <p class="projectTitle">
               UNIQUE POSITIONING STATEMENT
             </p>
         </div>
-        <div class="col-8">
+        <div class="col-lg-8 col-md-8 col-sm-12">
           <p class="contentText">
             Target audience would be people who wants to buy something immediately. <br><br>
 
@@ -154,11 +188,11 @@
     <div class="container">
       <p class="projectTitle projectTitleCenter">CONSULTANT/EXPERT</p>  
       <div class="row">
-          <div class="col-3">
+          <div class="col-lg-4 col-md-12 col-sm-12" style="text-align: center;">
             <img src="img/quickBuy/expert.png">
           </div>
-          <div class="col-1"></div>
-          <div class="col-8">
+          <div class="col-lg-1 col-md-1 col-sm-1"></div>
+          <div class="col-lg-7 col-md-7 col-sm-7">
             <p class="contentText">
               Betty is my good friend. We met each other in AAU. She is working in a company as a UI/UX designer. Her company develops an APP for shopping clothes. She gave some advices about designing production detail page and production list page.
             </p>
@@ -173,28 +207,20 @@
       COMPETITOR
     </p>
     <div class="row">
-        <div class="col-4 align-self-center">
+        <div class="col-lg-4 col-md-12 col-sm-12">
           <img src="img/quickBuy/amazon.png" class="quickBuyImg">
-        </div>
-        <div class="col-4 align-self-center">
-          <img src="img/quickBuy/walmart.png" class="quickBuyImg">
-        </div>     
-        <div class="col-4 align-self-center">
-          <img src="img/quickBuy/target.png" class="quickBuyImg">
-        </div>   
-    </div>
-    <div class="row">
-        <div class="col-4 align-self-center">
           <p class="contentText">
             Amazon is a multinational e- commerce company and one of the largest online online retailers in the world.
           </p>
         </div>
-        <div class="col-4 align-self-center">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img src="img/quickBuy/walmart.png" class="quickBuyImg">
           <p class="contentText">
             Walmart provide customers both shopping in store and online store.
           </p>
         </div>     
-        <div class="col-4 align-self-center">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img src="img/quickBuy/target.png" class="quickBuyImg">
           <p class="contentText">
             Target to provide customers with today's cutting-edge retail services, affordable. Target has physical store and online store.
           </p>
@@ -206,10 +232,10 @@
   <div class="greyBox"> 
     <div class="container">
       <div class="row">
-        <div class="col-4 align-self-center">
+        <div class="col-lg-4 col-md-4 col-sm-12 align-self-center">
            <p class="projectTitle"> TARGET AUDIENCE</p>
         </div> 
-        <div class="col-8 align-self-center">
+        <div class="col-lg-8 col-md-8 col-sm-12 align-self-center">
           <p class="contentTitle">
             Primary (18 - 55)          
           </p>
@@ -241,10 +267,10 @@
   <div class="greyBox"> 
     <div class="container">
       <div class="row">
-        <div class="col-4 align-self-center">
+        <div class="col-lg-4 col-md-4 col-sm-12 align-self-center">
            <p class="projectTitle">SCOPE</p>
         </div> 
-        <div class="col-8 align-self-center">
+        <div class="col-lg-8 col-md-8 col-sm-12 align-self-center">
           <p class="contentText">
           Ideally, my project would be able to gather real time stock information from most of stores. In this way, the app will be able to give very accurate suggestions to users about either buying online or in store.
           <br> <br>
@@ -259,25 +285,53 @@
   <!--STORYBOARD-->
   <div class="container">
     <div class="row">
-      <div class="col-4 align-self-center">
+      <div class="col-lg-4 col-md-12 col-sm-12 align-self-center">
          <p class="projectTitle">STORYBOARD</p>
       </div> 
-      <div class="col-8 align-self-center">
+      <div class="col-lg-8 col-md-12 col-sm-12 align-self-center">
         <img src="img/quickBuy/storyboard.png" class="">
       </div>  
     </div>
   </div>
 
-    <!--TASK FLOW-->
+    <!--USER FLOWS-->
   <div class="container">
-    <div class="row">
+    <p class="projectTitle projectTitleCenter">USER FLOWS</p>
+    <div style="text-align: center;">
       <img src="img/quickBuy/userflow1.png">       
     </div>
-    <div class="row">
+    <div style="text-align: center;">
       <img src="img/quickBuy/userflow2.png">       
     </div>
-    <div class="row">
+    <div style="text-align: center;">
       <img src="img/quickBuy/userflow3.png">       
     </div>
   </div>
+    <!-- Footer -->
+  <footer class="greyBox">
+    <div class="footer">
+      <ul class = "row flex-parent" style="list-style-type:none">
+        <li class = "col-sm-4 col-md-4 col-lg-4">
+          <p><a href="index.html" style="color:#696883">WORKS</a></p>
+          <p><a href="about.html" style="color:#696883">ABOUT</a></p>
+          <p><a href="about.html" style="color:#696883">CONTACT</a></p>
+        </li>
+        <li class = "col-sm-4 col-md-4 col-lg-4 flex-child">
+            <p>Yueting Lu</p>
+            <p>Academy of Art University</p>
+            <p>San Francisco, CA</p>
+            <p>Email: contact@yuetinglu.com</a></p>
+        </li>
+        <li class = "col-sm-4 col-md-4 col-lg-4">
+          <p>
+
+            <div class="fab fa-facebook-square fa-3x"></div>
+            <div class="fab fa-twitter-square fa-3x"></div>
+            <div class="fab fa-instagram fa-3x"></div>
+            <div class="fab fa-pinterest-square fa-3x"></div>
+          </p>            
+        </li>
+      </ul>
+    </div>
+  </footer>
 </html>

@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>IDN - Yueting Lu</title>
+  <title>Yueting Lu</title>
   <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
   <link rel="stylesheet" type="text/css" href="css/xd-style.css" media="screen"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/7798f44d04.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <link rel="icon" href="img/general/.png">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="icon" href="img/general/icon.png">
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<!--   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
- -->  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/navigation.js"></script>
-
 </head>
+
 <body>
 
 <!-- Navigation -->
-<div class="navigation-include">
-    This message is going to be replaced by the include file.
+<div id="navbar">
+  <div class="row">
+    <div class="col-1">
+      <a href="index.html" class="logo">        
+        <img src="img/general/logo.png" alt="icon">
+      </a>
+    </div>
+    <div class="col-11 align-self-center">
+      <a href="about.html" class="navButton">        
+        <button class="aboutButton">
+        ABOUT
+        </button>
+      </a>
+      <div class="navButton dropdown">     
+        <button class="dropbtn">
+        WORKS
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="quickBuy.html">QUICK BUY</a>
+          <a href="LaFondue.html">LA FONDUE</a>
+          <a href="hackHub.html">HACKAHUP</a>
+          <a href="BH.html">B&H REDESIGN</a>
+          <a href="IDN.html">IDN</a>
+          <a href="ArtTour/index.php">ART TOUR</a>
+        </div>
+      </div>
+    </div>
+  </div> 
 </div>
 
 
@@ -52,10 +75,10 @@
 <div class="greyBox">
   <div class="container index-text" id="overview">
     <div class="row index-text">
-      <div class="col-4 align-self-center">
+      <div class="col-lg4 col-md-4 col-sm-12 align-self-center">
          <p class="projectTitle">OVERVIEW</p>
       </div> 
-      <div class="col-8 align-self-center">
+      <div class="col-lg-8 col-md-8 col-sm-12 align-self-center">
         <p class="contentText">
         IdN magazine is an international publication for creative people on a mission to amplify and unify the design community in Asia-Pacific and other parts of the world. It is devoted to bringing designers from around the globe together to communicate with.
         </p>
@@ -65,30 +88,58 @@
 </div>
 
 <!--STORYBOARD -->
-<section class="container indexImageSection">
+<section class="container">
   <div class="row">
-      <div class="col-4 align-self-center">
+      <div class="col-lg4 col-md-12 col-sm-12 align-self-center">
           <p class="projectTitle">
             STORYBOARD
           </p>
       </div>
-      <div class="col-8"> 
+      <div class="col-lg-8 col-md-12 col-sm-12"> 
         <img src="img/IDN/storyBoard.png">
       </div>  
   </div>
 </section>
 
 <!--STYLEFRAMES -->
-<section class="container indexImageSection">
+<section class="container">
   <div class="row">
-      <div class="col-4 align-self-center">
+      <div class="col-lg4 col-md-12 col-sm-12 align-self-center">
           <p class="projectTitle">
             STYLEFRAMES
           </p>
       </div>
-      <div class="col-8"> 
+      <div class="col-lg-8 col-md-12 col-sm-12"> 
         <img src="img/IDN/styleFrames.png">
       </div>  
   </div>
 </section>  
+
+  <!-- Footer -->
+  <footer class="greyBox">
+    <div class="footer">
+      <ul class = "row flex-parent" style="list-style-type:none">
+        <li class = "col-sm-4 col-md-4 col-lg-4">
+          <p><a href="index.html" style="color:#696883">WORKS</a></p>
+          <p><a href="about.html" style="color:#696883">ABOUT</a></p>
+          <p><a href="about.html" style="color:#696883">CONTACT</a></p>
+        </li>
+        <li class = "col-sm-4 col-md-4 col-lg-4 flex-child">
+            <p>Yueting Lu</p>
+            <p>Academy of Art University</p>
+            <p>San Francisco, CA</p>
+            <p>Email: contact@yuetinglu.com</a></p>
+        </li>
+        <li class = "col-sm-4 col-md-4 col-lg-4">
+          <p>
+
+            <div class="fab fa-facebook-square fa-3x"></div>
+            <div class="fab fa-twitter-square fa-3x"></div>
+            <div class="fab fa-instagram fa-3x"></div>
+            <div class="fab fa-pinterest-square fa-3x"></div>
+          </p>            
+        </li>
+      </ul>
+    </div>
+  </footer>
 </html>

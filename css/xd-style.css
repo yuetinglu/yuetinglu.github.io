@@ -27,8 +27,14 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 
 .logo {
   float: left;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .worksButtion {
@@ -549,12 +555,19 @@ Index page
 }
 
 .quickBuyImg {
-  height: auto;
-  width: 90%;
+  height: 80;
+  width: auto;
   display: block; 
+  text-align: center;
 }
 
 .footer {
   text-align: center;
   color: #696883;
+}
+
+.iconNum {
+  text-align: center; 
+  float: center;
+  margin-bottom: 30px;
 }

@@ -318,7 +318,7 @@ Index page
 
 .projectSubHead {
   font-family: Futura;
-  font-size: 1vw;
+  font-size: 2vw;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -330,7 +330,7 @@ Index page
 
 .projectTitle {
   font-family: Futura;
-  font-size: 1vw;
+  font-size: 25px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -340,7 +340,7 @@ Index page
 }
 
 .contentTitle {
-  font-size: 0.9vw;
+  font-size: 18px;
   font-weight: bold;
   color: #3460ab;
   margin-bottom: 30px;
@@ -422,7 +422,7 @@ Index page
 
 .contentText {
 	font-family: Futura;
-  font-size: 0.8vw;
+  font-size: 16px;
 	font-weight: 500;
 	font-stretch: normal;
 	font-style: normal;
@@ -552,7 +552,7 @@ Index page
   color: #696883;
 }
 .footer p {
-  font-size: 0.05vw;
+  font-size: 14px;
 }
 
 .iconNum {

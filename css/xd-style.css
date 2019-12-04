@@ -106,7 +106,7 @@ Index page
 
 .aboutMeTitle {
   font-family: Futura;
-  font-size: calc(4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: 4vw;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -116,7 +116,7 @@ Index page
 
 .aboutMeContent {
   font-family: Futura;
-  font-size: calc(2vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: 2vw;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -318,7 +318,7 @@ Index page
 
 .projectSubHead {
   font-family: Futura;
-  font-size: calc(1vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: 1vw;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -330,7 +330,7 @@ Index page
 
 .projectTitle {
   font-family: Futura;
-  font-size: calc(0.4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: 1vw;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -340,7 +340,7 @@ Index page
 }
 
 .contentTitle {
-  font-size: calc(0.15vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: 0.9vw;
   font-weight: bold;
   color: #3460ab;
   margin-bottom: 30px;
@@ -422,7 +422,7 @@ Index page
 
 .contentText {
 	font-family: Futura;
-  font-size: calc(0.1vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: 0.8vw;
 	font-weight: 500;
 	font-stretch: normal;
 	font-style: normal;
@@ -552,7 +552,7 @@ Index page
   color: #696883;
 }
 .footer p {
-  font-size: calc(0.05vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: 0.05vw;
 }
 
 .iconNum {

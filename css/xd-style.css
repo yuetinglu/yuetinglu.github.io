@@ -554,10 +554,12 @@ Index page
   display: block; 
   text-align: center;
 }
-
 .footer {
   text-align: center;
   color: #696883;
+}
+.footer p {
+  font-size: calc(0.05vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .iconNum {

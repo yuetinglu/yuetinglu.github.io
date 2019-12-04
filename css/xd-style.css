@@ -3,7 +3,6 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 */
 .body {
 	font:Futura;
-  font-size: 16px;
 }
 
 
@@ -26,25 +25,18 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 }
 
 .logo {
+  height: calc(6vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  width: auto;
+  margin-top: calc(4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin-left: calc(4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   float: left;
-  margin-top: 40px;
-  margin-left: 40px;
 }
 
 #navbar {
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-.worksButtion {
-  width: calc(6vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  height: calc(6vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  background-color: #696883;
-  text-align: center;
-  color: #D7D6EA;
-  padding: 0;
-  margin: 0;
+  z-index: 1;
 }
 
 .aboutButton {
@@ -55,6 +47,7 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
   color: #696883;
   padding: 0;
   margin: 0;
+  font-size: calc(0.3vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .dropdown .dropbtn {
@@ -65,6 +58,7 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
   color: #D7D6EA;
   padding: 0;
   margin: 0;
+  font-size: 0.2vw;
 }
 
 .dropdown-content {
@@ -140,7 +134,9 @@ Index page
 
 .moreAboutMe {
   font-family: Futura;
-  font-size: 16px;
+/*  font-size: alc(0.4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+*/  
+  font-size: 1vw;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -154,10 +150,6 @@ Index page
 .blank {
   height: 100px;
 }
-
-/*.indexImageSection {
-  margin-top: 10%;
-}*/
 
 .indexImg {
 	width: auto;
@@ -260,7 +252,7 @@ Index page
 
 .BH {
   font-family: Futura;
-  font-size: 36px;
+  font-size: calc(3vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -277,7 +269,7 @@ Index page
 /* from: https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation4; */
 
 .arrow {
-  width: 60px;
+  width: calc(3vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   height: auto;
   display: block;
   margin-left: auto;
@@ -304,19 +296,19 @@ Index page
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes arrow {
   0%   {left:0px; top:0px;}
-  25%  {left:0px; top:10px;}
-  50%  {left:0px; top:20px;}
-  75%  {left:0px; top:30px;}
-  100% {left:0px; top:0px;}
+  25%  {left:0px; top:calc(2vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;}
+  50%  {left:0px; top:calc(3vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
+  75%  {left:0px; top:calc(4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
+  100% {left:0px; top:calc(5vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
 }
 
 /* Standard syntax */
 @keyframes arrow {
   0%   {left:0px; top:0px;}
-  25%  {left:0px; top:10px;}
-  50%  {left:0px; top:20px;}
-  75%  {left:0px; top:30px;}
-  100% {left:0px; top:0px;}
+  25%  {left:0px; top:calc(2vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;}
+  50%  {left:0px; top:calc(3vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
+  75%  {left:0px; top:calc(4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
+  100% {left:0px; top:calc(5vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
 }
 
 
@@ -333,7 +325,7 @@ Index page
 
 .projectSubHead {
   font-family: Futura;
-  font-size: 26px;
+  font-size: calc(1vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -345,7 +337,7 @@ Index page
 
 .projectTitle {
   font-family: Futura;
-  font-size: 25px;
+  font-size: calc(0.4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -355,7 +347,7 @@ Index page
 }
 
 .contentTitle {
-  font-size: 18px;
+  font-size: calc(0.15vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: bold;
   color: #3460ab;
   margin-bottom: 30px;
@@ -437,7 +429,7 @@ Index page
 
 .contentText {
 	font-family: Futura;
-	font-size: 16px;
+  font-size: calc(0.1vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 	font-weight: 500;
 	font-stretch: normal;
 	font-style: normal;
@@ -562,10 +554,12 @@ Index page
   display: block; 
   text-align: center;
 }
-
 .footer {
   text-align: center;
   color: #696883;
+}
+.footer p {
+  font-size: calc(0.05vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .iconNum {

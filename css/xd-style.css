@@ -25,7 +25,7 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 }
 
 .logo {
-  height: calc(6vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  height: calc(4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   width: auto;
   margin-top: calc(1vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   margin-left: calc(1vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
@@ -90,6 +90,11 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.indexImg {
+  height: 100%;
+  width: auto;
 }
 
 /*
@@ -592,6 +597,16 @@ Index page
 
   .projectSubHead {
     font-size: 18px;
+  }
+
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+
+  .video {
+    width: 320px;
+   height: 320px;
   }
 }
 

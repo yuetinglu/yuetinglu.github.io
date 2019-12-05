@@ -28,7 +28,7 @@ $wherelike_string = isset($_GET['where']) && isset($_GET['like']) ?
 	"";
 $orderby_string = isset($_GET['orderby']) && isset($_GET['direction']) ?
 	" ORDER BY {$_GET['orderby']} {$_GET['direction']}" :
-	" ORDER BY date_create DESC ";
+	" ORDER BY data_create DESC ";
 $limit_string = isset($_GET['limit']) ?
 	" LIMIT {$_GET['limit']}" :
 	" LIMIT 12 ";
@@ -53,7 +53,7 @@ $wherein_string = isset($_GET['where']) && isset($_GET['in']) ?
 	";
 
 
-
+console.log("data feed query = " + $query_string);
 
 $result = $conn->query($query_string);
 if($conn->errno) die($conn->error);

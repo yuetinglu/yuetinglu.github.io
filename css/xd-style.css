@@ -37,7 +37,6 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
   top: 0;
   width: 100%;
   z-index: 1;
-  margin-right: 
 }
 
 .aboutButton {
@@ -575,6 +574,14 @@ Index page
   width: auto;
 }
 
+.backBtn {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  color: #696883;
+  z-index: 1;
+}
+
 @media (max-width:800px) {
   .btnImg {
     height: 15vw;
@@ -606,7 +613,6 @@ Index page
 
   .video {
     width: 320px;
-   height: 320px;
+    height: 320px;
   }
 }
-

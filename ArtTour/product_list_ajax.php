@@ -36,8 +36,8 @@
 					  <div class="dropdown-content">
 						<button class="js-orderby" data-orderby="price" data-direction="DESC">Highest to Lowest</button>
 						<button class="js-orderby" data-orderby="price" data-direction="ASC">Lowest to Highest</button>
-						<button class="js-orderby" data-orderby="date_create" data-direction="DESC">Newest</button>
-						<button class="js-orderby" data-orderby="date_create" data-direction="ASC">Oldest</button>
+						<button class="js-orderby" data-orderby="data_create" data-direction="DESC">Newest</button>
+						<button class="js-orderby" data-orderby="data_create" data-direction="ASC">Oldest</button>
 					  </div>
 				</div>	
 				<div class="search-container col-sm-7 col-md-4">

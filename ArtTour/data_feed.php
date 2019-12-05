@@ -53,7 +53,7 @@ $wherein_string = isset($_GET['where']) && isset($_GET['in']) ?
 	";
 
 
-
+console.log("data feed query = " + $query_string);
 
 $result = $conn->query($query_string);
 if($conn->errno) die($conn->error);

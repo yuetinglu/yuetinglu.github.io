@@ -28,7 +28,7 @@ $wherelike_string = isset($_GET['where']) && isset($_GET['like']) ?
 	"";
 $orderby_string = isset($_GET['orderby']) && isset($_GET['direction']) ?
 	" ORDER BY {$_GET['orderby']} {$_GET['direction']}" :
-	" ORDER BY date_create DESC ";
+	" ORDER BY data_create DESC ";
 $limit_string = isset($_GET['limit']) ?
 	" LIMIT {$_GET['limit']}" :
 	" LIMIT 12 ";

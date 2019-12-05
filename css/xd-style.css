@@ -565,6 +565,11 @@ Index page
   margin-bottom: 30px;
 }
 
+.snippetImg {
+  height: 30vw;
+  width: auto;
+}
+
 @media (max-width:800px) {
   .btnImg {
     height: 15vw;

@@ -27,8 +27,8 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 .logo {
   height: calc(6vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   width: auto;
-  margin-top: calc(4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  margin-left: calc(4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin-top: calc(1vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin-left: calc(1vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   float: left;
 }
 
@@ -37,17 +37,22 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
   top: 0;
   width: 100%;
   z-index: 1;
+  margin-right: 
 }
 
 .aboutButton {
-  color: #696883;
   padding: 0;
   margin: 0;
 }
 
+.worksButton {
+  padding: 0;
+  margin: 0;  
+}
+
 .btnImg {
-  width: 8vw;
-  height: auto;
+  height: 6vw;
+  width: auto;
 }
 .dropdown .dropbtn {
   padding: 0;
@@ -58,7 +63,6 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
   display: none;
   position: absolute;
   background-color: #696883;
-  width: 16vw;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   font-size: 1vw;
@@ -69,8 +73,9 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
   color: #D7D6EA;
   text-decoration: none;
   display: block;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
+  padding-left: 5px;
 }
 
 .navButton a:hover, .dropdown:hover .dropbtn {
@@ -87,8 +92,6 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,500);
   display: block;
 }
 
-
-
 /*
 Index page
 */
@@ -102,7 +105,7 @@ Index page
 }
 
 .space {
-  height: calc(12vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  height: calc(12vw + (26 - 19) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .aboutMeTitle {
@@ -280,7 +283,7 @@ Index page
   -webkit-animation-direction: alternate;
   /* Standard syntax */
   animation-name: arrow;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -290,19 +293,19 @@ Index page
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes arrow {
   0%   {left:0px; top:0px;}
-  25%  {left:0px; top:calc(2vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;}
-  50%  {left:0px; top:calc(3vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
-  75%  {left:0px; top:calc(4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
-  100% {left:0px; top:calc(5vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
+  25%  {left:0px; top:calc(1vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;}
+  50%  {left:0px; top:calc(1.2vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
+  75%  {left:0px; top:calc(1.5vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
+  100% {left:0px; top:calc(2vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
 }
 
 /* Standard syntax */
 @keyframes arrow {
   0%   {left:0px; top:0px;}
-  25%  {left:0px; top:calc(2vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;}
-  50%  {left:0px; top:calc(3vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
-  75%  {left:0px; top:calc(4vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
-  100% {left:0px; top:calc(5vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
+  25%  {left:0px; top:calc(1vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;}
+  50%  {left:0px; top:calc(1.2vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
+  75%  {left:0px; top:calc(1.5vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
+  100% {left:0px; top:calc(2vw + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
 }
 
 
@@ -561,3 +564,29 @@ Index page
   float: center;
   margin-bottom: 30px;
 }
+
+@media (max-width:800px) {
+  .btnImg {
+    height: 15vw;
+    width: auto;
+  }
+  .contentTitle {
+    font-size: 16px;
+  }
+
+  .projectTitle {
+    font-size: 18px;
+  }
+  .contentText {
+    font-size: 14px;
+  }
+
+  .BH {
+    font-size: 24px;
+  }
+
+  .projectSubHead {
+    font-size: 18px;
+  }
+}
+

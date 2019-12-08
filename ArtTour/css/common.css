@@ -450,5 +450,28 @@ button:hover{
   color: white;
 }
 
+.artTourLogo {
+	width: 200px;
+	height: auto;
+}
+
+.NavTitle {
+	font-size: 72px;
+	font: Futura;
+}
+
+@media (max-width:800px) {
+	.artTourLogo {
+		width: 50px;
+		height: auto;
+	}
+
+	.NavTitle {
+	font-size: 18px;
+	font: Futura;
+	}
+
+}
+
 
 

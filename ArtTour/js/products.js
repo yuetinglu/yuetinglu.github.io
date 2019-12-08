@@ -63,7 +63,7 @@ function setCart(arr){
 }
 function setCartBadge() {
 	console.log("setCartBadge");
-	$(".cart-total").html(getCart().length||"")
+	$(".cart-total").html(getCart().length||"0")
 }
 function getCartItems(){
 	return cartitems = getCart().reduce((r,o,i,a)=>{

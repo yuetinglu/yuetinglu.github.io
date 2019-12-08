@@ -426,6 +426,10 @@ Index page
 	float: center;
 }
 
+.hachubImageComp {
+  margin-bottom: 30px;
+}
+
 .hachubStoryboardImage {
   height: auto;
   width: 90%;
@@ -640,5 +644,12 @@ Index page
   .video {
     width: 320px;
     height: 320px;
+  }
+
+  .contentTitle-index {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3460ab;
+    margin-bottom: 0px;
   }
 }

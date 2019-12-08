@@ -1,13 +1,13 @@
 <header>
 	<div class="row flex-center">
-		<div class="col-sm-4 col-md-4 col-lg-4">
+		<div class="col-sm-6 col-md-4 col-lg-4">
 			<img src="img/general/logo.png" class="artTourLogo">
 		</div>
-		<div class="col-sm-4 col-md-4 col-lg-4">
-			<p class="NavTitle">California Coastline</p>
+		<div class="col-sm-6 col-md-4 col-lg-4">
+			<H1>California Coastline</H1>
 		</div>
 
-		<nav class="nav navbar col-sm-4 col-md-4 col-lg-4" style="text-align:center" id="navList">
+		<nav class="nav col-sm-12 col-md-4 col-lg-4" style="text-align:center">
 			<ul class="flex-parent" style="display:inline-flex">
 			    <li><a href="home.php">Home</a></li>
 				<li><a href="product_list_ajax.php?v=1.1">Shop</a></li>
@@ -16,22 +16,9 @@
 				</li>
 				<li><a href="about.php">About</a>
 				</li>
-				<a href="javascript:void(0);" class="navIcon" onclick="scaleNavBar()">
-	    			<i class="fa fa-bars"></i>
-	  			</a>
 			</ul>
 		</nav>
 	</div>
 </header>
-<script type="text/javascript">
-	function scaleNavBar() {
-	  var x = document.getElementById("navList");
-	  if (x.className === "topnav") {
-	    x.className += "navResponsive";
-	  } else {
-	    x.className = "topnav";
-	  }
-	}
-</script>
 
 

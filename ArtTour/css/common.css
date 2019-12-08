@@ -455,18 +455,18 @@ button:hover{
 	height: auto;
 }
 
-.NavTitle {
+/*.NavTitle {
 	font-size: 142px;
 	font: Futura;
-}
+}*/
 
 
-.topnav .navIcon {
+/*.topnav .navIcon {
   display: none;
-}
+}*/
 
 
-@media (max-width:800px) {
+/*@media (max-width:800px) {
 	.artTourLogo {
 		width: 50px;
 		height: auto;
@@ -493,7 +493,7 @@ button:hover{
 	display: block;
 	text-align: left;
 	}
-}
+}*/
 
 
 

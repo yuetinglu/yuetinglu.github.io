@@ -112,6 +112,10 @@ Index page
   height: calc(12vw + (26 - 19) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.space-index {
+  height: calc(8vw + (26 - 19) * ((100vw - 300px) / (1600 - 300)));
+}
+
 .aboutMeTitle {
   font-family: Futura;
   font-size: 4vw;
@@ -354,6 +358,14 @@ Index page
   margin-bottom: 30px;
 }
 
+.contentTitle-index {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3460ab;
+  margin-bottom: 0px;
+}
+
+
 .columnText {
 	margin-bottom: 30px;
 }
@@ -440,6 +452,20 @@ Index page
 	color: #464749;
   margin-top: 15px;
 }
+
+.contentTextIndex {
+  font-family: Futura;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #464749;
+  margin-top: 0px;
+}
+
 
 .pieChart1 {
 	height: auto;

@@ -455,17 +455,6 @@ button:hover{
 	height: auto;
 }
 
-/*.NavTitle {
-	font-size: 142px;
-	font: Futura;
-}*/
-
-
-/*.topnav .navIcon {
-  display: none;
-}*/
-
-
 @media (max-width:800px) {
 	.artTourLogo {
 		width: 50px;
@@ -494,6 +483,8 @@ button:hover{
 	text-align: left;
 	}*/
 }
+
+
 
 
 

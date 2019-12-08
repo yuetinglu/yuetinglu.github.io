@@ -216,6 +216,14 @@ $(function(){
 
 })
 
+function scaleNavBar() {
+  var x = document.getElementById("navList");
+  if (x.className === "topnav") {
+    x.className += "navResponsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 
 // $(function(){
 

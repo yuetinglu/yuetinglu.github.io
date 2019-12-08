@@ -22,7 +22,7 @@ body {
 }
 </style>
 </head>
-<body>
+<body onLoad="setCartBadge()">
 
 	<?php include "parts/header.html" ?>
 	<div class="container-cart">

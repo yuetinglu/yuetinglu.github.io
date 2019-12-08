@@ -11,7 +11,7 @@ include "lib/php/print_o.php";
 	<title>Product Item</title>
 	<?php include "parts/head.html" ?>
 </head>
-<body>
+<body onLoad="setCartBadge()">
 
 	<?php include "parts/header.html" ?>
 

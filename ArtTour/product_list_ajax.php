@@ -17,7 +17,7 @@
 </script>
 	<?php include "parts/header.html" ?>
 
-<body>
+<body onLoad="setCartBadge()">
 	<div class="topnav">
 		<div class="grid">
 			<div class="row gutters">

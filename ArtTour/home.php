@@ -8,11 +8,10 @@
 <?php include "parts/header.html" ?>
 
 <body>			
-	<div class="col-sm-12">
-		<div class="view-window" style="background-image:url('img/DSC02218.JPG')"></div>		
-		<div>
-			<h2>What's New!</h2>
-		</div>
+	<div class="view-window" style="background-image:url('img/DSC02218.JPG')"></div>		
+	<div>
+		<h2>What's New!</h2>
+	</div>
 	<div class="product-container">
 		<!-- .grid>.row.gutters>.col-sm-6.col-md-3*4>.product>img.media-image[src=https://via.placeholder.com/500]+.product-description>button{Add To Cart} -->
 		<div class="grid container">

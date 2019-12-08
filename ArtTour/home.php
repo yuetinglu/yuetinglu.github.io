@@ -14,7 +14,7 @@
 	</div>
 	<div class="product-container">
 		<!-- .grid>.row.gutters>.col-sm-6.col-md-3*4>.product>img.media-image[src=https://via.placeholder.com/500]+.product-description>button{Add To Cart} -->
-		<div class="grid container">
+		<div class="grid">
 			<div class="row gutters">
 				<div class="col-sm-6 col-md-3 col-lg-3">
 					<a href="product_item.php?id=6">

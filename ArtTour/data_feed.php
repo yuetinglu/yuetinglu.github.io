@@ -53,8 +53,7 @@ $wherein_string = isset($_GET['where']) && isset($_GET['in']) ?
 	";
 
 
-$js_code = 'console.log(' . json_encode($query_string, JSON_HEX_TAG) . ');';
-echo $js_code;
+console.log("data feed query = " + $query_string);
 
 $result = $conn->query($query_string);
 if($conn->errno) die($conn->error);

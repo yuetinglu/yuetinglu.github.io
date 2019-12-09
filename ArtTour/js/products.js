@@ -13,7 +13,8 @@ function getProductList(query, nextFunction) {
 		console.log("textStatus = " + textStatus)
 		console.log("errorThrown = " + errorThrown)
 	})
-	.always(console.log("Finsihed!"))
+	.always(console.log("Finsihed"))
+	
 }
 
 

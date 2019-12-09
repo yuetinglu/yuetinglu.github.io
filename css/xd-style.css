@@ -618,6 +618,17 @@ Index page
   z-index: 1;
 }
 
+.download {
+  position: relative;
+  top:10%;
+  right: 10%;
+  color: #696883;
+  z-index: 1;
+  text-align: right;
+  font-size: 18px;
+  font: Futura;
+}
+
 .videoInd {
   text-align: center;
 }
@@ -661,5 +672,9 @@ Index page
     font-weight: bold;
     color: #3460ab;
     margin-bottom: 0px;
+  }
+
+  .linkArt {
+    font-size: 1px;
   }
 }

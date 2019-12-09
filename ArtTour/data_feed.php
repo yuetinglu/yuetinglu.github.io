@@ -21,7 +21,7 @@ function likeGroup($where,$like) {
 
 
 $wherewhat_string = isset($_GET['where']) && isset($_GET['what']) ?
-	" WHERE {$_GET['where']} = {$_GET['what']} " :
+	" WHERE {$_GET['where']} = "{$_GET['what']}" " :
 	"";
 $wherelike_string = isset($_GET['where']) && isset($_GET['like']) ?
 	likeGroup($_GET['where'],$_GET['like']) :

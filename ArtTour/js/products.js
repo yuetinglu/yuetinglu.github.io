@@ -197,7 +197,7 @@ $(function(){
 	// FILTER API
 	$(".js-filter").on("click",function(e){
 		e.preventDefault();
-		getProductList("where=${$(this).data("filter")}&what=${$(this).data("value")}",showProductList)
+		getProductList("where=${$(this).data(\"filter\")}&what=${$(this).data(\"value\")}",showProductList)
 	})
 	// SORT API
 	$(".js-orderby").on("click",function(e){

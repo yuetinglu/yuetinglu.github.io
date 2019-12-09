@@ -37,13 +37,6 @@ $wherein_string = isset($_GET['where']) && isset($_GET['in']) ?
 "";
 
 
-
-// $query_string = "SELECT * FROM products
-// 	$wherewhat_string
-// 	$wherelike_string
-// 	$orderby_string
-// 	$limit_string
-// 	";
 	$query_string = "SELECT * FROM products
 	$wherewhat_string
 	$wherelike_string
@@ -51,9 +44,6 @@ $wherein_string = isset($_GET['where']) && isset($_GET['in']) ?
 	$orderby_string
 	$limit_string
 	";
-
-
-console.log("data feed query = " + $query_string);
 
 $result = $conn->query($query_string);
 if($conn->errno) die($conn->error);

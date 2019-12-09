@@ -10,7 +10,7 @@
 
 </head>
 <div class="col-sm-12">
-<body class="indexBackGround" background="img/background.JPG">
+<body class="indexBackGround" background="img/background.png">
   <div>
     <a href="home.php">
       <img src="img/BOAT.png" class="start_image"/>

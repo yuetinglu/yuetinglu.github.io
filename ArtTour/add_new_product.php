@@ -10,19 +10,20 @@ include "db_connect.php";
 $query_string = "INSERT INTO `products`
 (
 	`id`,
-	`date_create`,
-	`date_modify`,
+	`data_create`,
+	`data_modify`,
 	`main_image`,
 	`other_images`,
 	`category`,
 	`price`,
 	`description`,
 	`name`,
-	`brief`
+	`url`,
+	`email`
 )
 VALUES
 (
-	null,
+	9,
 	NOW(),
 	NOW(),
 	'img/9.png',
@@ -31,9 +32,9 @@ VALUES
 	900,
 	'8 X 10, Oil painting on canvas',
 	'Muir Beach',
-	'This project presents a series of landscape paintings that depict the California coastline. This idea was inspired when I took a trip along California State Route 1. I focused on an expressive realistic representation of the coast.'
-)
-";
+	'Muir Beach.php',
+	' '
+)";
 
 $result = $conn->query($query_string);
 

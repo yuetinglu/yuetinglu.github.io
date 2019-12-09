@@ -8,7 +8,7 @@
 <?php include "parts/header.html" ?>
 
 <body onLoad="setCartBadge()">			
-	<div class="view-window" style="background-image:url('img/DSC02218.JPG')"></div>		
+	<div class="view-window" style="background-image:url('img/header.png')"></div>		
 	<div>
 		<h2>What's New!</h2>
 	</div>

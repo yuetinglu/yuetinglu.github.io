@@ -32,7 +32,6 @@ VALUES
 	900,
 	'8 X 10, Oil painting on canvas',
 	'Muir Beach',
-	'This project presents a series of landscape paintings that depict the California coastline. This idea was inspired when I took a trip along California State Route 1. I focused on an expressive realistic representation of the coast.',
 	'Muir Beach.php',
 	' '
 )";

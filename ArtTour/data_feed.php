@@ -21,7 +21,7 @@ function likeGroup($where,$like) {
 
 
 $wherewhat_string = isset($_GET['where']) && isset($_GET['what']) ?
-	" WHERE {$_GET['where']} = '%{$_GET['what']}%' " :
+	" WHERE {$_GET['where']} = '{$_GET['what']}' " :
 	"";
 $wherelike_string = isset($_GET['where']) && isset($_GET['like']) ?
 	likeGroup($_GET['where'],$_GET['like']) :
@@ -46,10 +46,10 @@ $wherein_string = isset($_GET['where']) && isset($_GET['in']) ?
 // 	";
 	$query_string = "SELECT * FROM products
 	$wherewhat_string
-	$wherelike_string
-	$wherein_string
-	$orderby_string
-	$limit_string
+	-- $wherelike_string
+	-- $wherein_string
+	-- $orderby_string
+	-- $limit_string
 	";
 
 
